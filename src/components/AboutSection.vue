@@ -56,10 +56,6 @@
         padding-top: 100px;
     }
 
-    .sides-margin {
-        margin-left: 8%;
-        margin-right: 8%;
-    }
 
     .profile-image {
         border-radius: 50% !important;

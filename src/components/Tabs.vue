@@ -41,7 +41,7 @@
     .bg {
         background-color: #DEDECD;
         z-index: 10;
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.04), 0px 8px 8px 1px rgba(0, 0, 0, 0.08);
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.04), 0 8px 8px 1px rgba(0, 0, 0, 0.08);
     }
 
     mdc-tab span{

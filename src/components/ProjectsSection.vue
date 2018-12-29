@@ -31,10 +31,6 @@
 
 <style scoped>
 
-    .services-grid {
-        margin-top: 100px;
-    }
-
     .space {
         height: 50px;
     }
@@ -43,16 +39,6 @@
         background-color: #DEDECD;
         padding-bottom: 75px;
         padding-top: 50px;
-    }
-
-    .sides-margin {
-        margin-left: 8%;
-        margin-right: 8%;
-    }
-
-    .profile-image {
-        border-radius: 50% !important;
-        max-height: 150px;
     }
 
     .title {

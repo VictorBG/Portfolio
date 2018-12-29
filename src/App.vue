@@ -1,12 +1,12 @@
 <template>
-    <div id="app" class="mdc-elevation--z7">
+    <div id="app">
         <!--If we put Header and Tabs in the same component, tabs lose the sticky ability, which we need-->
         <Header></Header>
         <Tabs></Tabs>
         <AboutSection></AboutSection>
         <ProjectsSection></ProjectsSection>
-        <!--Dummy section to test scroll-->
-        <div style="height: 1500px; background-color: red"></div>
+        <Contact></Contact>
+        <Footer></Footer>
     </div>
 </template>
 
@@ -16,6 +16,8 @@
     import Tabs from "./components/Tabs";
     import AboutSection from './components/AboutSection'
     import ProjectsSection from './components/ProjectsSection'
+    import Contact from './components/Contact'
+    import Footer from './components/Footer'
 
     export default {
         name: 'app',
@@ -23,7 +25,9 @@
             Header,
             Tabs,
             AboutSection,
-            ProjectsSection
+            ProjectsSection,
+            Contact,
+            Footer
         }
     }
 </script>
@@ -50,5 +54,10 @@
 
     h3 {
         font-weight: 500;
+    }
+
+    .sides-margin {
+        margin-left: 8%;
+        margin-right: 8%;
     }
 </style>

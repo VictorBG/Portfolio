@@ -8,6 +8,7 @@ import VueMDCTabs from 'vue-mdc-adapter/dist/tabs'
 import VueMDCTopAppBar from 'vue-mdc-adapter/dist/toolbar'
 import VueMDCGrid from 'vue-mdc-adapter/dist/layout-grid'
 import VueMDCCard from 'vue-mdc-adapter/dist/card'
+import VuewMDCTextfield from 'vue-mdc-adapter/dist/textfield'
 
 
 import './theme.scss'
@@ -23,6 +24,7 @@ Vue.use(VueMDCTabs);
 Vue.use(VueMDCTopAppBar);
 Vue.use(VueMDCGrid);
 Vue.use(VueMDCCard);
+Vue.use(VuewMDCTextfield);
 
 Vue.use(VueSticky);
 
