@@ -36,9 +36,8 @@
         padding-bottom: 32px;
         padding-right: 32px;
         padding-left: 32px;
-        font-weight: normal;
         line-height: 30px;
-        font-size: medium;
+
     }
 
     h3 {

@@ -47,4 +47,8 @@
         color: #f04;
         text-decoration: none;
     }
+
+    h3 {
+        font-weight: 500;
+    }
 </style>

@@ -99,11 +99,6 @@
         margin: 0;
     }
 
-    .see-more-button {
-        position: relative;
-        bottom: 0 !important;
-    }
-
     .mdc-chip.mdc-chip--selected {
       color: #ff0044 !important;
     }

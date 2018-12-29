@@ -10,3 +10,9 @@ $dark-background: #DEDECD;
 
 @include mdc-tab-bar-indicator-ink-color(#f04);
 
+mdc-tab {
+  @include mdc-typography(headline4);
+  font-family: "Roboto Medium", sans-serif !important;
+}
+
+

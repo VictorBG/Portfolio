@@ -49,9 +49,6 @@
         font-weight: 500;
         font-family: "Roboto Light", serif;
         color: #747373;
-
-
-
     }
 
 </style>
