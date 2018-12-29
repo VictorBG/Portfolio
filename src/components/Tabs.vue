@@ -1,6 +1,4 @@
 <template>
-
-    <!--TODO: Need to set elevation on this but only on the bottom-->
     <div v-sticky="{stickyTop: 0}">
         <!-- mdc-elevation--z6 -->
         <div class="bg ">
@@ -43,6 +41,7 @@
     .bg {
         background-color: #DEDECD;
         z-index: 10;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.04), 0px 8px 8px 1px rgba(0, 0, 0, 0.08);
     }
 
     mdc-tab span{
