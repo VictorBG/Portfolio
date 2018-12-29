@@ -29,7 +29,7 @@
 <script>
 
     import ServiceCard from './header/ServiceCard';
-
+    import services from "../data/services.json";
 
     export default {
         name: "AboutSection",
@@ -42,38 +42,6 @@
             }
         }
     }
-    // https://semantic-ui.com/images/avatar2/large/matthew.png
-    //This works but i have to pass the full url, otherwise not
-    const services = [
-        {
-            "id": 1,
-            "title": "Android design",
-            "description": "The main goal of my design is to follow the principles of Material Design and to build beautiful and useful interfaces",
-            // "logo": "src/assets/android_design.svg"
-            "logo": "https://semantic-ui.com/images/avatar2/large/matthew.png"
-        },
-        {
-            "id": 2,
-            "title": "Android development",
-            "description": "The main goal of the development is to build robust and scalable applications following modern principles",
-            // "logo": "../../assets/android_development.svg"
-            "logo": "https://semantic-ui.com/images/avatar2/large/matthew.png"
-        },
-        {
-            "id": 3,
-            "title": "Web development",
-            "description": "As a web developer I have experience with CMS like WordPress and building websites from scratch",
-            // "logo": "../../assets/web_development.svg"
-            "logo": "https://semantic-ui.com/images/avatar2/large/matthew.png"
-        },
-        {
-            "id": 4,
-            "title": "API development",
-            "description": "As a backend developer I have experience working with Slim Framework and Amazon Web Services to build and deploy an API",
-            // "logo": "../../assets/backend_development.svg"
-            "logo": "https://semantic-ui.com/images/avatar2/large/matthew.png"
-        }
-    ];
 </script>
 
 <style scoped>

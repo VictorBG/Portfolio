@@ -28,16 +28,20 @@ Vue.use(VueSticky);
 
 Vue.directive('sticky', VueSticky);
 
-let servicesURL = "./data/services.json";
+import sservices from "./data/services.json";
+import projects from "./data/projects.json";
 
 
 /* eslint-disable no-new */
-new Vue({
+const app = new Vue({
     el: '#app',
+    data: {
+        sservices,
+        projects
+    },
     router,
     template: '<App/>',
     components: {App},
-
 });
 
 
