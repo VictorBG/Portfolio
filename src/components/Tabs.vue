@@ -45,4 +45,8 @@
         z-index: 10;
     }
 
+    mdc-tab span{
+        font-family: "Roboto Medium", serif !important;
+    }
+
 </style>

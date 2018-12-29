@@ -4,6 +4,8 @@
         <Header></Header>
         <Tabs></Tabs>
         <AboutSection></AboutSection>
+        <ProjectsSection></ProjectsSection>
+        <!--Dummy section to test scroll-->
         <div style="height: 1500px; background-color: red"></div>
     </div>
 </template>
@@ -13,13 +15,15 @@
     import Header from './components/Header'
     import Tabs from "./components/Tabs";
     import AboutSection from './components/AboutSection'
+    import ProjectsSection from './components/ProjectsSection'
 
     export default {
         name: 'app',
         components: {
             Header,
             Tabs,
-            AboutSection
+            AboutSection,
+            ProjectsSection
         }
     }
 </script>

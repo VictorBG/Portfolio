@@ -7,3 +7,6 @@ $light-background: #EEEFE5;
 $dark-background: #DEDECD;
 
 @import "~vue-mdc-adapter/dist/styles";
+
+@include mdc-tab-bar-indicator-ink-color(#f04);
+
