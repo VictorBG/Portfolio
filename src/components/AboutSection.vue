@@ -18,8 +18,9 @@
             <mdc-layout-grid class="services-grid">
                 <service-card v-for="service in services" :key="service.id" :service="service"/>
             </mdc-layout-grid>
-
-
+            <br>
+            <br>
+            <h3 id="text_introduction">You can grab a copy of my CV <a class="link" href="#contact">here</a></h3>
         </div>
     </div>
 
@@ -83,7 +84,8 @@
 
     .bg {
         background-color: #EEEFE5;
-        padding-bottom: 100px;
+        padding-bottom: 75px;
+        padding-top: 100px;
     }
 
     .sides-margin {
