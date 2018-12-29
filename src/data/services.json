@@ -1,0 +1,27 @@
+[
+  {
+   "id": 1,
+    "title": "Android design",
+    "description": "The main goal of my design is to follow the principles of Material Design and to build beautiful and useful interfaces",
+    "logo": "../../assets/services/android_design.svg"
+  },
+  {
+    "id": 2,
+    "title": "Android development",
+    "description": "The main goal of the development is to build robust and scalable applications following modern principles",
+    "logo": "../../assets/services/android_development.svg"
+  },
+  {
+    "id": 3,
+    "title": "Web development",
+    "description": "As a web developer I have experience with CMS like WordPress and building websites from scratch",
+    "logo": "../../assets/services/web_development.svg"
+  },
+  {
+    "id": 4,
+    "title": "API development",
+    "description": "As a backend developer I have experience working with Slim Framework and Amazon Web Services to build and deploy an API",
+    "logo": "../../assets/services/backend_development.svg"
+  }
+
+]
