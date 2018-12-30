@@ -63,6 +63,10 @@
         object-fit: cover;
     }
 
+    .featured-image:hover {
+        cursor: pointer;
+    }
+
     .project-content {
         padding-top: 32px;
         padding-bottom: 16px;
@@ -89,6 +93,10 @@
         color: black;
         padding: 0;
         margin: 0;
+    }
+
+    .title:hover {
+        cursor: pointer;
     }
 
     .description {

@@ -4,8 +4,8 @@
         <div class="bg" ref="bg">
             <mdc-tab-bar @change="onSelected">
                 <!--TODO I don't know how to put this into a for statement without setting the active variable to all-->
-                <mdc-tab v-bind:active="this.tabActive===0">{{sections[0]}}</mdc-tab>
-                <mdc-tab v-bind:active="this.tabActive===1">{{sections[1]}}</mdc-tab>
+                <mdc-tab v-bind:active="tabActive===0">{{sections[0]}}</mdc-tab>
+                <mdc-tab v-bind:active="tabActive===1">{{sections[1]}}</mdc-tab>
                 <mdc-tab v-bind:active="tabActive===2">{{sections[2]}}</mdc-tab>
             </mdc-tab-bar>
         </div>
@@ -15,33 +15,30 @@
 <script>
 
 
+    //TODO Need to implement a better scroll system, this one has a lot of animation bugs
     export default {
         name: "Tabs",
         methods: {
             onSelected(idx) {
-                if(this.forcedActive) {
-                    this.forcedActive=false;
-                    return;
+                if (this.tabActive !== idx) {
+                    location.href = '#' + this.sections[idx].toLowerCase();
                 }
-                location.href = '#' + this.sections[idx].toLowerCase();
             },
-
         },
         data() {
             const sections = ['About', 'Projects', 'Contact'];
             return {
                 sections,
                 tabActive: 0,
-                forcedActive: false
+                forcedActive: false,
             }
         },
         mounted: function () {
             let self = this;
             let height = self.$refs.bg.clientHeight;
             self.$root.$on('changeScroll', function (index, scroll) {
-                if (scroll <= height + 20 && scroll >= height - 20) {
+                if (scroll <= height + 50 && scroll >= height - 50) {
                     if (self.tabActive !== index) {
-                        self.forcedActive=true;
                         self.tabActive = index;
                     }
                 }
@@ -49,7 +46,7 @@
 
             self.$root.$on('forceChangeTab', function (index) {
                 if (self.tabActive !== index) {
-                    self.forcedActive=true;
+                    self.forcedActive = true;
                     self.tabActive = index;
                 }
             })
