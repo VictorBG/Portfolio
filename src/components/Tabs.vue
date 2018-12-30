@@ -19,6 +19,10 @@
         name: "Tabs",
         methods: {
             onSelected(idx) {
+                if(this.forcedActive) {
+                    this.forcedActive=false;
+                    return;
+                }
                 location.href = '#' + this.sections[idx].toLowerCase();
             },
 
@@ -27,7 +31,8 @@
             const sections = ['About', 'Projects', 'Contact'];
             return {
                 sections,
-                tabActive: 0
+                tabActive: 0,
+                forcedActive: false
             }
         },
         mounted: function () {
@@ -36,16 +41,15 @@
             self.$root.$on('changeScroll', function (index, scroll) {
                 if (scroll <= height + 20 && scroll >= height - 20) {
                     if (self.tabActive !== index) {
+                        self.forcedActive=true;
                         self.tabActive = index;
-                        //self.$root.$emit('switchTab', index);
-                        console.log(`tabActive: ${index}`);
                     }
                 }
             });
 
             self.$root.$on('forceChangeTab', function (index) {
                 if (self.tabActive !== index) {
-                    console.log(`tabActive: ${index}`);
+                    self.forcedActive=true;
                     self.tabActive = index;
                 }
             })
