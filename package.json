@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "A Vue.js project",
+  "description": "Victor's portfolio",
   "author": "Víctor <victorblancogarcia3@gmail.com>",
   "private": true,
   "scripts": {
@@ -12,7 +12,7 @@
   "dependencies": {
     "material-components-web": "0.35.0",
     "vue": "^2.5.2",
-    "vue-mdc-adapter": "0.15.3",
+    "vue-mdc-adapter": "0.18.2",
     "vue-router": "^3.0.1",
     "vue-smooth-scroll": "^1.0.13",
     "vue-sticky": "^3.3.4",

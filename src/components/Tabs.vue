@@ -19,7 +19,7 @@
         name: "Tabs",
         methods: {
             onSelected(idx) {
-                location.href='#'+this.sections[idx].toLowerCase();
+                location.href = '#' + this.sections[idx].toLowerCase();
             },
 
         },
@@ -40,9 +40,15 @@
                         //self.$root.$emit('switchTab', index);
                         console.log(`tabActive: ${index}`);
                     }
-
                 }
             });
+
+            self.$root.$on('forceChangeTab', function (index) {
+                if (self.tabActive !== index) {
+                    console.log(`tabActive: ${index}`);
+                    self.tabActive = index;
+                }
+            })
 
         }
     }

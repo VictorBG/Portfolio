@@ -1,5 +1,5 @@
 <template>
-    <div class="bg" id="about">
+    <div class="bg" id="about" ref="about">
         <div class="sides-margin">
             <mdc-layout-grid>
                 <mdc-layout-cell desktop=4 tablet=4 align="middle">
@@ -40,6 +40,16 @@
             return {
                 services
             }
+        },
+        mounted: function () {
+            let self=this;
+            let projectsSection = this.$refs.about;
+            window.addEventListener('scroll', function (ev) {
+
+                let distanceToTop = projectsSection.getBoundingClientRect().top;
+                self.$root.$emit('changeScroll', 0, distanceToTop);
+
+            });
         }
     }
 </script>

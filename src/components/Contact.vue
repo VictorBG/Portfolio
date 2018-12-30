@@ -1,5 +1,5 @@
 <template>
-    <div class="bg" id="contact">
+    <div class="bg" id="contact" ref="contact">
         <div class="sides-margin">
             <h3 class="title">CONTACT</h3>
             <div class="space"></div>
@@ -43,6 +43,16 @@
             onClick() {
                 sendMail();
             }
+        },
+        mounted: function () {
+            let self = this;
+            window.addEventListener('scroll', function (ev) {
+                if ((window.innerHeight + window.scrollY + 50) >= document.body.offsetHeight) {
+                    // you're at the bottom of the page
+                    self.$root.$emit('forceChangeTab', 2);
+                }
+
+            });
         }
     }
 
