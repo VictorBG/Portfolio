@@ -1,5 +1,5 @@
 <template>
-    <div class="bg">
+    <div class="bg" id="contact">
         <div class="sides-margin">
             <h3 class="title">CONTACT</h3>
             <div class="space"></div>

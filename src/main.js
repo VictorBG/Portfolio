@@ -3,14 +3,7 @@
 import Vue from 'vue'
 
 import VueMDCAdapter from 'vue-mdc-adapter'
-import VueMDCTabs from 'vue-mdc-adapter/dist/tabs'
-//TODO top app bar is not implemented in npm package, using toolbar as a workaround meanwhile
-import VueMDCTopAppBar from 'vue-mdc-adapter/dist/toolbar'
-import VueMDCGrid from 'vue-mdc-adapter/dist/layout-grid'
-import VueMDCCard from 'vue-mdc-adapter/dist/card'
-import VuewMDCTextfield from 'vue-mdc-adapter/dist/textfield'
-
-
+import vueSmoothScroll from 'vue-smooth-scroll'
 import './theme.scss'
 import App from './App'
 import router from './router'
@@ -20,30 +13,30 @@ import VueSticky from 'vue-sticky'
 Vue.config.productionTip = false;
 
 Vue.use(VueMDCAdapter);
-Vue.use(VueMDCTabs);
-Vue.use(VueMDCTopAppBar);
-Vue.use(VueMDCGrid);
-Vue.use(VueMDCCard);
-Vue.use(VuewMDCTextfield);
-
+Vue.use(vueSmoothScroll)
 Vue.use(VueSticky);
 
 Vue.directive('sticky', VueSticky);
 
-import sservices from "./data/services.json";
-import projects from "./data/projects.json";
+
 
 
 /* eslint-disable no-new */
 const app = new Vue({
     el: '#app',
     data: {
-        sservices,
-        projects
+       distanceTopProjects: 0
     },
     router,
     template: '<App/>',
     components: {App},
+    mounted: function () {
+        this.$root.$on('switchTab', function (index) {
+            console.log("Main switch tab");
+            console.log(VueMDCTabs.components.mdcTabBar);
+            VueMDCTabs.components.mdcTabBar.methods.onSelect(index);
+        })
+    }
 });
 
 

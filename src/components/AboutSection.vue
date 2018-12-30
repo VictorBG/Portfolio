@@ -1,5 +1,5 @@
 <template>
-    <div class="bg">
+    <div class="bg" id="about">
         <div class="sides-margin">
             <mdc-layout-grid>
                 <mdc-layout-cell desktop=4 tablet=4 align="middle">

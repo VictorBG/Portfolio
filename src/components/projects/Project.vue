@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div >
         <div class="project-content">
             <mdc-layout-grid class="project-grid">
                 <mdc-layout-cell desktop=4 tablet=4 class="featured-image-container">

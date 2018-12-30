@@ -1,11 +1,14 @@
 <template>
-    <div class="bg">
+    <div class="bg" id="projects" ref="projectsection">
         <div class="sides-margin">
             <h3 class="title">PROJECTS</h3>
             <br>
-            <h3 id="text_introduction">You can see more examples on my <a class="link" target="_blank" href="https://github.com/VictorBG">GitHub</a></h3>
+            <h3 id="text_introduction">You can see more examples on my <a class="link" target="_blank"
+                                                                          href="https://github.com/VictorBG">GitHub</a>
+            </h3>
             <div class="space"></div>
-            <project v-for="(project, index) in projects" :key="project.id" :project="project" :line="index!==Object.keys(projects).length - 1"></project>
+            <project v-for="(project, index) in projects" :key="project.id" :project="project"
+                     :line="index!==Object.keys(projects).length - 1"></project>
         </div>
     </div>
 
@@ -25,6 +28,16 @@
             return {
                 projects
             }
+        },
+        mounted: function () {
+            let self=this;
+            let projectsSection = this.$refs.projectsection;
+            window.addEventListener('scroll', function (ev) {
+
+                 let distanceToTop = projectsSection.getBoundingClientRect().top;
+                 self.$root.$emit('changeScroll', 1, distanceToTop);
+
+            });
         }
     }
 </script>
