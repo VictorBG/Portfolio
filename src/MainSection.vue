@@ -1,11 +1,15 @@
 <template>
-    <div id="app">
-        <router-view name="main"></router-view>
+    <div>
+        <Header></Header>
+        <Tabs></Tabs>
+        <AboutSection></AboutSection>
+        <ProjectsSection></ProjectsSection>
+        <Contact></Contact>
+        <Footer></Footer>
     </div>
 </template>
 
 <script>
-
     import Header from './components/Header'
     import Tabs from "./components/Tabs";
     import AboutSection from './components/AboutSection'
@@ -15,7 +19,7 @@
     import HelloWorld from "./components/HelloWorld";
 
     export default {
-        name: 'app',
+        name: 'MainSection',
         components: {
             HelloWorld,
             Header,
@@ -28,33 +32,6 @@
     }
 </script>
 
-<style>
+<style scoped>
 
-    html, body {
-        padding: 0;
-        margin: 0;
-        scroll-behavior: smooth;
-    }
-
-    #app {
-        font-family: 'Roboto', Helvetica, Arial, sans-serif;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-        text-align: center;
-        color: #2c3e50;
-    }
-
-    .link {
-        color: #f04;
-        text-decoration: none;
-    }
-
-    h3 {
-        font-weight: 500;
-    }
-
-    .sides-margin {
-        margin-left: 8%;
-        margin-right: 8%;
-    }
 </style>

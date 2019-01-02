@@ -9,11 +9,10 @@ import App from './App'
 import router from './router'
 import VueSticky from 'vue-sticky'
 
-
 Vue.config.productionTip = false;
 
 Vue.use(VueMDCAdapter);
-Vue.use(vueSmoothScroll)
+Vue.use(vueSmoothScroll);
 Vue.use(VueSticky);
 
 Vue.directive('sticky', VueSticky);
@@ -32,11 +31,11 @@ const app = new Vue({
     components: {App},
     mounted: function () {
         this.$root.$on('switchTab', function (index) {
-            console.log("Main switch tab");
-            console.log(VueMDCTabs.components.mdcTabBar);
-            VueMDCTabs.components.mdcTabBar.methods.onSelect(index);
+
         })
     }
-});
+}).$mount('#app')
+
+
 
 

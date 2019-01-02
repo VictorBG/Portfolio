@@ -3,11 +3,12 @@
         <div class="project-content">
             <mdc-layout-grid class="project-grid">
                 <mdc-layout-cell desktop=4 tablet=4 class="featured-image-container">
-                    <img @click="imageClick(project.id)" class="featured-image" :src="project.featured_image">
+                    <!--<img @click="imageClick(project.id)" class="featured-image" :src="project.featured_image">-->
+                    <router-link :to="{name: 'ProjectInfo', params: {id: project.id}}" tag="img" class="featured-image" :src="project.featured_image"></router-link>
                 </mdc-layout-cell>
 
                 <mdc-layout-cell desktop=8 tablet=8 class="project-description-container">
-                    <p @click="titleClick(project.id)" class="title">{{project.title}}</p>
+                    <router-link :to="{name: 'ProjectInfo', params: {id: project.id}}" tag="p" class="title" >{{project.title}}</router-link>
                     <br>
                     <mdc-chip-set style="padding-left:0" filter>
                         <mdc-chip v-for="tag in project.tags" :key="tag">{{tag}}</mdc-chip>

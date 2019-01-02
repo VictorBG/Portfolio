@@ -25,6 +25,12 @@
                 }
             },
         },
+        props: {
+            currentTab: {
+                type: Number,
+                default: 0
+            }
+        },
         data() {
             const sections = ['About', 'Projects', 'Contact'];
             return {
@@ -37,7 +43,7 @@
             let self = this;
             let height = self.$refs.bg.clientHeight;
             self.$root.$on('changeScroll', function (index, scroll) {
-                if (scroll <= height + 50 && scroll >= height - 50) {
+                if (scroll <= height + 25 && scroll >= height - 25) {
                     if (self.tabActive !== index) {
                         self.tabActive = index;
                     }

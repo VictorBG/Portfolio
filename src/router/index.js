@@ -1,15 +1,33 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
+import HelloWorld from '../components/HelloWorld'
+import MainSection from '../MainSection'
+import ProjectInfo from '../components/ProjectInfo'
 
 Vue.use(Router)
 
 export default new Router({
-  routes: [
-    {
-      path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
-    }
-  ]
+    routes: [
+        {
+            path: '/world',
+            name: 'HelloWorld',
+            components: {
+                main: HelloWorld
+            }
+        },
+        {
+            path: '/',
+            name: 'MainPage',
+            components: {
+                main: MainSection
+            }
+        }, {
+            path: '/project/:id',
+            name: 'ProjectInfo',
+            components: {
+                main: ProjectInfo
+            }
+        }
+
+    ]
 })

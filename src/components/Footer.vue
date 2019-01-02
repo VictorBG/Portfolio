@@ -1,6 +1,6 @@
 <template>
     <div class="bg">
-        <p>Handmade by me © 2018</p>
+        <p>Handmade by me © 2019</p>
     </div>
 </template>
 

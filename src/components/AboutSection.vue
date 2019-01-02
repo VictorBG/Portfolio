@@ -42,7 +42,7 @@
             }
         },
         mounted: function () {
-            let self=this;
+            let self = this;
             let projectsSection = this.$refs.about;
             window.addEventListener('scroll', function (ev) {
 
@@ -64,8 +64,9 @@
         background-color: #EEEFE5;
         padding-bottom: 75px;
         padding-top: 100px;
+        padding-left: 15%;
+        padding-right: 15%
     }
-
 
     .profile-image {
         border-radius: 50% !important;
