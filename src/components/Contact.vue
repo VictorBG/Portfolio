@@ -2,18 +2,19 @@
     <div class="bg" id="contact" ref="contact">
         <div class="sides-margin">
             <h3 class="title">CONTACT</h3>
+            <h4 class="desc">Let's build something together! Or
+                <a class="link" href="mailto:victorblancogarcia3@gmail.com">email me</a> if you have any other
+                questions.</h4>
             <div class="space"></div>
             <div class="form-container">
-                <mdc-layout-grid>
-                    <mdc-layout-cell desktop=6 tablet=6 align="middle">
-                        <mdc-textfield class="cinput" v-model="name" id="name" label="Name"
-                                       outline></mdc-textfield>
-                    </mdc-layout-cell>
-                    <mdc-layout-cell desktop=6 tablet=6 align="middle">
-                        <mdc-textfield class="cinput" v-model="mail" id="mail"
-                                       label="Mail" outline></mdc-textfield>
-                    </mdc-layout-cell>
-                </mdc-layout-grid>
+                <div class="subject">
+                    <mdc-textfield class="cinput" v-model="name" id="name" label="Name"
+                                   outline></mdc-textfield>
+                </div>
+                <div class="subject">
+                    <mdc-textfield class="cinput" v-model="mail" id="mail"
+                                   label="Mail" outline></mdc-textfield>
+                </div>
                 <div class="subject">
                     <mdc-textfield class="cinput" v-model="subject" id="subject"
                                    label="Subject" outline></mdc-textfield>
@@ -75,6 +76,13 @@
     .title {
         font-size: 1.6rem;
         font-family: "Roboto Black", serif;
+    }
+
+    .desc {
+        font-size: 1.1rem;
+        font-family: "Roboto Medium", serif;
+        font-weight: normal;
+        color: #474748;
     }
 
     .space {

@@ -3,7 +3,7 @@
     "id": 1,
     "title": "Ya llego",
     "short_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-    "large_description": "Falset is an application which combines the beacons and geolocalization technologies to guide the user inside the village through touristic routes and show the user the most important and historic places of the village.<br><br>The app is developed natively for Android and iOS (you can find it in both stores) using native technology and the backend has been developed using the Slim Framework.",
+    "large_description": "Falset is an application which combines the beacons and geolocalization technologies to guide the user inside the village through touristic routes and show the user the most important and historic places of the village.<br/><br/>The app is developed natively for Android and iOS (you can find it in both stores) using native technology and the backend has been developed using the Slim Framework.",
     "featured_image": "https://victorblancogarcia.com/img/portfolio/falset/falset-header.png",
     "tags": [
       "Android"
@@ -12,7 +12,8 @@
       "enabled": true,
       "title": "SEE ON GOOGLE PLAY",
       "availabilityVisible": true,
-      "availabilityMessage": "Only available in Spain"
+      "availabilityMessage": "Only available in Spain",
+      "link": "https://google.es"
     },
     "images" : [
       "https://victorblancogarcia.com/img/portfolio/falset/falset1.png",
@@ -26,7 +27,7 @@
     "id": 2,
     "title": "Falset",
     "short_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-    "large_description": "Falset is an application which combines the beacons and geolocalization technologies to guide the user inside the village through touristic routes and show the user the most important and historic places of the village.<br><br>The app is developed natively for Android and iOS (you can find it in both stores) using native technology and the backend has been developed using the Slim Framework.",
+    "large_description": "Falset is an application which combines the beacons and geolocalization technologies to guide the user inside the village through touristic routes and show the user the most important and historic places of the village.<br/><br/>The app is developed natively for Android and iOS (you can find it in both stores) using native technology and the backend has been developed using the Slim Framework.",
     "featured_image": "https://victorblancogarcia.com/img/portfolio/falset/falset-header.png",
     "tags": [
       "Android",
@@ -36,7 +37,8 @@
       "enabled": true,
       "title": "SEE ON GOOGLE PLAY",
       "availabilityVisible": true,
-      "availabilityMessage": "Only available in Spain"
+      "availabilityMessage": "Only available in Spain",
+      "link": "https://google.es"
     },
     "images" : [
       "https://victorblancogarcia.com/img/portfolio/falset/falset1.png",
@@ -49,17 +51,18 @@
     "id": 3,
     "title": "PropertyCross",
     "short_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-    "large_description": "Falset is an application which combines the beacons and geolocalization technologies to guide the user inside the village through touristic routes and show the user the most important and historic places of the village.<br><br>The app is developed natively for Android and iOS (you can find it in both stores) using native technology and the backend has been developed using the Slim Framework.",
-    "featured_image": "https://victorblancogarcia.com/img/portfolio/falset/falset-header.png",
+    "large_description": "Is an application for native platforms which allows you to find properties in rental or sale, order them by price, space or proximity and search them by name.",
+    "featured_image": "http://www.ianmagarzo.com/wp-content/uploads/2018/09/0.Front_-980x551.png",
     "tags": [
       "Android",
       "API"
     ],
     "button": {
       "enabled": true,
-      "title": "SEE ON GOOGLE PLAY",
+      "title": "VIEW ON GITHUB",
       "availabilityVisible": true,
-      "availabilityMessage": "Only available in Spain"
+      "availabilityMessage": "Only available in Spain",
+      "link": "https://google.es"
     },
     "images" : [
       "https://victorblancogarcia.com/img/portfolio/falset/falset1.png",

@@ -8,19 +8,14 @@
                 <mdc-layout-cell desktop=8 tablet=8 style=" text-align: justify;text-justify: inter-word;"
                                  align="middle">
                     <p class="main-text">Computer science student ending his degree with experience in design
-                        and programming. I
-                        consider myself a very sociable person, able to quickly connect to the team to which I’m
-                        assigned to, and take on projects with thoroughness and creativity.<br><br>My main goal
-                        is
-                        to continue developing my career and grow alongside professionals who trust me.</p>
+                        and programming. I'm quietly confident, naturally curious, and perpetually improving my chops.<br><br>My main goal
+                        is to continue developing my career and grow alongside professionals who trust me.</p>
                 </mdc-layout-cell>
             </mdc-layout-grid>
             <mdc-layout-grid class="services-grid">
                 <service-card v-for="service in services" :key="service.id" :service="service"/>
             </mdc-layout-grid>
             <br>
-            <br>
-            <h3 id="text_introduction">You can grab a copy of my CV <a class="link" href="#contact">here</a></h3>
         </div>
     </div>
 

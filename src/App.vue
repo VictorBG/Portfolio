@@ -1,6 +1,8 @@
 <template>
     <div id="app">
-        <router-view name="main"></router-view>
+
+            <router-view name="main"></router-view>
+
     </div>
 </template>
 
@@ -34,6 +36,10 @@
         padding: 0;
         margin: 0;
         scroll-behavior: smooth;
+    }
+
+    .slider img {
+        max-width: 500px !important;
     }
 
     #app {

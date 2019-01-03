@@ -16,16 +16,17 @@ export default new Router({
             }
         },
         {
-            path: '/',
-            name: 'MainPage',
-            components: {
-                main: MainSection
-            }
-        }, {
             path: '/project/:id',
             name: 'ProjectInfo',
             components: {
                 main: ProjectInfo
+            }
+        },
+        {
+            path: '/*',
+            name: 'MainPage',
+            components: {
+                main: MainSection
             }
         }
 

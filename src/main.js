@@ -8,12 +8,17 @@ import './theme.scss'
 import App from './App'
 import router from './router'
 import VueSticky from 'vue-sticky'
+import VueCarousel from '@chenfengyuan/vue-carousel';
+import VueAgile from 'vue-agile'
 
 Vue.config.productionTip = false;
 
 Vue.use(VueMDCAdapter);
 Vue.use(vueSmoothScroll);
 Vue.use(VueSticky);
+Vue.use(VueAgile);
+Vue.component(VueCarousel.name, VueCarousel);
+
 
 Vue.directive('sticky', VueSticky);
 

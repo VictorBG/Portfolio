@@ -1,26 +1,43 @@
 [
   {
     "id": 1,
-    "title": "Android design",
-    "description": "The main goal of my design is to follow the principles of Material Design and to build beautiful and useful interfaces",
-    "logo": "https://semantic-ui.com/images/avatar2/large/matthew.png"
+    "title": "Android",
+    "description": "I tend to code everything it comes to my mind in a clean way with a beautiful design.",
+    "logo": "https://victorblancogarcia.com/img/placeholder/android_development.svg",
+    "extra": {
+      "title": null
+    }
   },
   {
     "id": 2,
-    "title": "Android development",
-    "description": "The main goal of the development is to build robust and scalable applications following modern principles",
-    "logo": "https://semantic-ui.com/images/avatar2/large/matthew.png"
+    "title": "Front-end",
+    "description": "I love to design and develop websites from a simple website to a complex.",
+    "logo": "https://victorblancogarcia.com/img/placeholder/web_development.svg",
+    "extra": {
+      "title": "What I do",
+      "list": [
+        "CSS3",
+        "HTML5",
+        "JavaScript",
+        "Vue.js",
+        "Wordpress"
+      ]
+    }
   },
   {
     "id": 3,
-    "title": "Web development",
-    "description": "As a web developer I have experience with CMS like WordPress and building websites from scratch",
-    "logo": "https://semantic-ui.com/images/avatar2/large/matthew.png"
-  },
-  {
-    "id": 4,
-    "title": "API development",
-    "description": "As a backend developer I have experience working with Slim Framework and Amazon Web Services to build and deploy an API",
-    "logo": "https://semantic-ui.com/images/avatar2/large/matthew.png"
+    "title": "Back-end",
+    "description": "I usually create APIs to provide information to my apps and my websites.",
+    "logo": "https://victorblancogarcia.com/img/placeholder/backend_development.svg",
+    "extra": {
+      "title": "What I do",
+      "list": [
+        "PHP",
+        "APIs",
+        "Slim Framework",
+        "Firebase",
+        "AWS"
+      ]
+    }
   }
 ]

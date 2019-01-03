@@ -1,23 +1,36 @@
 <!--suppress ALL -->
 <template>
+
     <div class="project-info">
         <div class="sides-margin">
             <h3 class="title">{{currentProject.title}}</h3>
-            <br>
             <mdc-layout-grid class="project-grid">
-                <mdc-layout-cell desktop=6 tablet=6 class="featured-image-container">
-
+                <mdc-layout-cell desktop=6 tablet=6 class="left-container">
+                    <p class="main-text" v-html="currentProject.large_description"></p>
+                    <br>
+                    <br>
+                    <mdc-button class="main-button" v-show="currentProject.button.enabled"
+                                @click="onClick(currentProject.button.link)" raised>{{currentProject.button.title}}
+                    </mdc-button>
+                    <p class="availability-text" v-show="currentProject.button.availabilityVisible">
+                        {{currentProject.button.availabilityMessage}}</p>
                 </mdc-layout-cell>
 
-                <mdc-layout-cell desktop=6 tablet=6 class="project-description-container">
-
+                <mdc-layout-cell desktop=6 tablet=6 class="centered-container">
+                    <div class="centered-vertically">
+                        <carousel :data="images" :controls="true" :interval="7500"></carousel>
+                    </div>
                 </mdc-layout-cell>
             </mdc-layout-grid>
+
+
         </div>
         <div class="footer">
             <p>Handmade by me © 2019</p>
         </div>
     </div>
+
+
 </template>
 
 <script>
@@ -26,6 +39,11 @@
 
     export default {
         name: "ProjectInfo",
+        methods: {
+            onClick(link) {
+                window.open(link, '_blank');
+            }
+        },
         data() {
             const emptyProject = {title: "",};
             return {
@@ -34,11 +52,13 @@
                 previousProject: emptyProject,
                 showNext: false,
                 showPrevious: false,
+                images: [],
+
             }
         },
         async created() {
             let id = this.$route.params.id;
-            var i=0;
+            var i = 0;
 
             for (; i < projects.length; ++i) {
                 if (projects[i].id == id) {
@@ -57,19 +77,150 @@
                 this.nextProject = projects[i + 1];
             }
 
+            let l = this.currentProject.images.length;
+            for (i = 0; i < l; i++) {
+                // this.images.push("'<div class=\"slide\" style=\"background-image:url(\""+this.currentProject.images[i]+"\")\"></div>'");
+                let a = `<div class='slide'> <img width="250" src="${this.currentProject.images[i]}"></div>`;
+                this.images.push(a);
+            }
         }
     }
 </script>
 
+
 <style scoped>
+
+    .slide {
+        align-items: center;
+        justify-content: center;
+        width: 500px;
+        height: 500px;
+        object-fit: cover;
+    }
+
+    .centered-vertically {
+        display: flex;
+        padding-top: 75px;
+        padding-bottom: 75px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main-text {
+        color: #747373;
+        font-size: 1rem;
+        font-family: "Roboto Medium", serif;
+        padding-top: 75px;
+        text-align: justify;
+    }
+
+    .button-nav-project-title {
+        position: relative;
+        padding: 0;
+        margin: 0;
+        width: 3rem;
+        text-align: center;
+        padding-top: 3.25rem;
+    }
+
+    .mdc-icon-a {
+        height: 3rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 3rem;
+        margin: 0;
+        transform: translate(-50%, -50%);
+    }
+
+    .availability-text {
+        color: #747373;
+        font-size: .8rem;
+        font-family: "Roboto Black", serif;
+        padding-top: 8px;
+        margin: 0;
+        text-align: justify;
+    }
+
+    .centered-container {
+        padding-left: 50px;
+        padding-right: 50px;
+        text-align: center;
+    }
+
+    .left-container {
+        padding-left: 50px;
+        padding-right: 50px;
+        text-align: left;
+    }
 
     .footer {
         background-color: #EEEFE5;
-        padding: 16px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+    }
+
+    .navigate-project {
+        position: absolute;
+        transform: translateY(-50%);
+        background-color: rgba(0, 0, 0, .5);
+        border: 0;
+        border-radius: 50%;
+        color: #fff;
+        cursor: pointer;
+        height: 3rem;
+        opacity: .5;
+        padding: .5rem;
+        transition: all .15s;
+        width: 3rem;
+    }
+
+    .navigate-project:hover {
+        background-color: rgba(0, 0, 0, .9);
+    }
+
+    .next-project {
+        position: absolute;
+        right: 0;
+        padding-right: 16px;
+        top: 50%;
+    }
+
+    .next-button {
+        left: 0;
+    }
+
+    .previous-project {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        margin-left: 16px;
+    }
+
+    .carousel__control:before {
+        border: .1rem solid transparent;
+        border-radius: .155rem;
+        content: "";
+        display: block;
+        height: .5rem;
+        left: 50%;
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -50%) rotate(45deg);
+        width: .5rem;
+        border-bottom-color: #fff;
+        border-left-color: #fff;
+        margin-left: .125rem;
     }
 
     .project-info {
+        height: 100%;
+        min-height: 100vh;
         background-color: #DEDECD;
+
     }
 
     .project-grid {
@@ -78,11 +229,12 @@
     }
 
     .title {
-        font-family: "Roboto Medium", serif;
-        font-size: 1.80rem;
+        font-family: "Roboto Black", serif;
+        font-size: 2rem;
         color: black;
         padding-top: 50px;
         margin: 0;
+        text-transform: uppercase;
     }
 
     .footer p {
@@ -91,5 +243,10 @@
         color: #747373;
         margin: 0;
 
+    }
+
+    .sides-margin {
+        margin-right: 15%;
+        margin-left: 15%;
     }
 </style>
