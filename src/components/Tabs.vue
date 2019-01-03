@@ -4,9 +4,9 @@
         <div class="bg" ref="bg">
             <mdc-tab-bar @change="onSelected">
                 <!--TODO I don't know how to put this into a for statement without setting the active variable to all-->
-                <mdc-tab v-bind:active="tabActive===0">{{sections[0]}}</mdc-tab>
-                <mdc-tab v-bind:active="tabActive===1">{{sections[1]}}</mdc-tab>
-                <mdc-tab v-bind:active="tabActive===2">{{sections[2]}}</mdc-tab>
+                <mdc-tab v-bind:active="$root.tabActive===0">{{sections[0]}}</mdc-tab>
+                <mdc-tab v-bind:active="$root.tabActive===1">{{sections[1]}}</mdc-tab>
+                <mdc-tab v-bind:active="$root.tabActive===2">{{sections[2]}}</mdc-tab>
             </mdc-tab-bar>
         </div>
     </div>
@@ -20,22 +20,15 @@
         name: "Tabs",
         methods: {
             onSelected(idx) {
-                if (this.tabActive !== idx) {
+                if (this.$root.tabActive !== idx) {
                     location.href = '#' + this.sections[idx].toLowerCase();
                 }
             },
-        },
-        props: {
-            currentTab: {
-                type: Number,
-                default: 0
-            }
         },
         data() {
             const sections = ['About', 'Projects', 'Contact'];
             return {
                 sections,
-                tabActive: 0,
                 forcedActive: false,
             }
         },
@@ -44,16 +37,16 @@
             let height = self.$refs.bg.clientHeight;
             self.$root.$on('changeScroll', function (index, scroll) {
                 if (scroll <= height + 25 && scroll >= height - 25) {
-                    if (self.tabActive !== index) {
-                        self.tabActive = index;
+                    if (self.$root.tabActive !== index) {
+                        self.$root.tabActive = index;
                     }
                 }
             });
 
             self.$root.$on('forceChangeTab', function (index) {
-                if (self.tabActive !== index) {
+                if (self.$root.tabActive !== index) {
                     self.forcedActive = true;
-                    self.tabActive = index;
+                    self.$root.tabActive = index;
                 }
             })
 

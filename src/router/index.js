@@ -29,6 +29,16 @@ export default new Router({
                 main: MainSection
             }
         }
-
-    ]
+    ],
+    scrollBehavior(to, from, savedPosition) {
+        if (to.name === 'ProjectInfo') {
+            return {x: 0, y: 0}
+        } else {
+            if (savedPosition) {
+                return savedPosition
+            } else {
+                return {x: 0, y: 0}
+            }
+        }
+    }
 })

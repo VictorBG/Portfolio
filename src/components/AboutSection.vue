@@ -55,6 +55,10 @@
         margin-top: 100px;
     }
 
+    .service-card {
+        height: 100%;
+    }
+
     .bg {
         background-color: #EEEFE5;
         padding-bottom: 75px;

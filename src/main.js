@@ -23,17 +23,17 @@ Vue.component(VueCarousel.name, VueCarousel);
 Vue.directive('sticky', VueSticky);
 
 
-
-
 /* eslint-disable no-new */
 const app = new Vue({
     el: '#app',
-    data: {
-       distanceTopProjects: 0
-    },
     router,
     template: '<App/>',
     components: {App},
+    data() {
+        return {
+            tabActive: 0
+        }
+    },
     mounted: function () {
         this.$root.$on('switchTab', function (index) {
 

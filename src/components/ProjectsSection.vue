@@ -57,7 +57,6 @@
     .title {
         font-size: 1.6rem;
         font-family: "Roboto Black", serif;
-
     }
 </style>
 

@@ -1,6 +1,7 @@
 <!--suppress ALL -->
 <template>
 
+
     <div class="project-info">
         <div class="sides-margin">
             <h3 class="title">{{currentProject.title}}</h3>
@@ -23,11 +24,9 @@
                 </mdc-layout-cell>
             </mdc-layout-grid>
 
-
         </div>
-        <div class="footer">
-            <p>Handmade by me © 2019</p>
-        </div>
+        <Footer></Footer>
+        <router-link to="/"><img id="logo" src="../assets/logo_no_name_black.svg"></router-link>
     </div>
 
 
@@ -36,9 +35,11 @@
 <script>
 
     import projects from "../data/projects.json";
+    import Footer from "./Footer";
 
     export default {
         name: "ProjectInfo",
+        components: {Footer},
         methods: {
             onClick(link) {
                 window.open(link, '_blank');
@@ -52,7 +53,7 @@
                 previousProject: emptyProject,
                 showNext: false,
                 showPrevious: false,
-                images: [],
+                images: []
 
             }
         },
@@ -67,21 +68,9 @@
             }
             this.currentProject = projects[i];
 
-            if (i > 0) {
-                this.showPrevious = true;
-                this.previousProject = projects[i - 1];
-            }
-
-            if (i < projects.length - 1) {
-                this.showNext = true;
-                this.nextProject = projects[i + 1];
-            }
-
             let l = this.currentProject.images.length;
             for (i = 0; i < l; i++) {
-                // this.images.push("'<div class=\"slide\" style=\"background-image:url(\""+this.currentProject.images[i]+"\")\"></div>'");
-                let a = `<div class='slide'> <img width="250" src="${this.currentProject.images[i]}"></div>`;
-                this.images.push(a);
+                this.images.push(`<div class='slide'> <img width="250" src="${this.currentProject.images[i]}"></div>`);
             }
         }
     }
@@ -89,6 +78,16 @@
 
 
 <style scoped>
+
+    #logo {
+        position: absolute;
+        margin: 32px;
+        cursor: pointer;
+        height: 50px;
+        width: 50px;
+        top: 0;
+        left: 0;
+    }
 
     .slide {
         align-items: center;
@@ -219,7 +218,7 @@
     .project-info {
         height: 100%;
         min-height: 100vh;
-        background-color: #DEDECD;
+        background-color: #EEEFE5;
 
     }
 

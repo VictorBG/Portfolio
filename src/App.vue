@@ -35,7 +35,6 @@
     html, body {
         padding: 0;
         margin: 0;
-        scroll-behavior: smooth;
     }
 
     .slider img {

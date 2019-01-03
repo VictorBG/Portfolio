@@ -1,6 +1,6 @@
 <template>
     <mdc-layout-cell desktop=4 tablet=4>
-        <mdc-card>
+        <mdc-card class="full">
             <img class="mdc-elevation--z6" id="logo" :src="service.logo">
             <mdc-card-header>
                 <mdc-card-title class="title">{{service.title}}</mdc-card-title>
@@ -29,6 +29,9 @@
 
 <style scoped>
 
+    .full {
+        height: 100% !important;
+    }
     mdc-card {
         position: relative;
         min-width: 250px;
@@ -44,20 +47,22 @@
     }
 
     .title {
-        font-size: 1.15rem !important;
-        font-family: "Roboto Medium", serif;
+        font-size: 1.3rem !important;
+        padding-top: 16px;
+        font-family: "Roboto Black", serif;
     }
 
     .description {
-        font-size: .9rem !important;
-        line-height: 20px;
+        font-size: 1rem !important;
+        padding-right:32px;
+        padding-left:32px;
         font-weight: 500;
-        font-family: "Roboto Medium", serif;
-        color: #747373;
+        font-family: "Roboto Regular", serif;
+        color: #555555;
     }
 
     .extra-title {
-        font-size: 1rem !important;
+        font-size: 1.3rem !important;
         font-family: "Roboto Medium", serif;
         color: #ff0044;
     }
@@ -66,8 +71,8 @@
         font-size: 1rem !important;
         margin: 0;
         padding: 6px;
-        color: #747373;
-        font-family: "Roboto Medium", serif;
+        color: #555555;
+        font-family: "Roboto Regular", serif;
     }
 
 </style>

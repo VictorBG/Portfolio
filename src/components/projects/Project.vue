@@ -3,16 +3,15 @@
         <div class="project-content">
             <mdc-layout-grid class="project-grid">
                 <mdc-layout-cell desktop=4 tablet=4 class="featured-image-container">
-                    <!--<img @click="imageClick(project.id)" class="featured-image" :src="project.featured_image">-->
                     <router-link :to="{name: 'ProjectInfo', params: {id: project.id}}" tag="img" class="featured-image" :src="project.featured_image"></router-link>
                 </mdc-layout-cell>
 
                 <mdc-layout-cell desktop=8 tablet=8 class="project-description-container">
                     <router-link :to="{name: 'ProjectInfo', params: {id: project.id}}" tag="p" class="title" >{{project.title}}</router-link>
-                    <br>
-                    <mdc-chip-set style="padding-left:0" filter>
-                        <mdc-chip v-for="tag in project.tags" :key="tag">{{tag}}</mdc-chip>
-                    </mdc-chip-set>
+                    <!--<br>-->
+                    <!--<mdc-chip-set style="padding-left:0">-->
+                        <!--<mdc-chip v-for="tag in project.tags" :key="tag">{{tag}}</mdc-chip>-->
+                    <!--</mdc-chip-set>-->
                     <br>
                     <p class="description">{{project.short_description}}</p>
                 </mdc-layout-cell>
@@ -34,19 +33,13 @@
                 type: Boolean,
                 default: false
             }
-        },
-        methods: {
-            imageClick(index) {
-                console.log(index);
-            },
-            titleClick(data) {
-                console.log(data);
-            }
         }
     }
 </script>
 
 <style scoped>
+
+
 
     .featured-image-container {
         text-align: left;
@@ -94,14 +87,16 @@
         color: black;
         padding: 0;
         margin: 0;
+        transition: all .2s;
     }
 
     .title:hover {
         cursor: pointer;
+        color: #ff0044;
     }
 
     .description {
-        font-family: "Roboto Light", serif;
+        font-family: "Roboto Regular", serif;
         font-size: 1.15rem;
         color: #747373;
         padding: 0;
