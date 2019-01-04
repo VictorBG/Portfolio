@@ -4,7 +4,7 @@
 
 The site uses [Vue.js](https://vuejs.org/).
 
-###License
+### License
     Copyright 2019 VictorBG
   
      Licensed under the Apache License, Version 2.0 (the "License");
