@@ -53,8 +53,8 @@
         background-color: #EEEFE5;
         padding-bottom: 75px;
         padding-top: 100px;
-        padding-left: 15%;
-        padding-right: 15%
+        padding-left: 5%;
+        padding-right: 5%
     }
 
     .profile-image {

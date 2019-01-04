@@ -57,7 +57,7 @@
     "title": "Vivienda Pro",
     "short_description": "Vivienda Pro is an application which allows you to find properties in rental or sale",
     "large_description": "Vivienda Pro is an application which allows you to find properties in rental or sale, order them by price, space or proximity and search them by name.<br><br>The app is developed for Android and iOS, and has a backend composed by the Javascript Framework called Meteor which runs over Node JS and MongoDB as database engine.<br><br>This project was for the university and is not available in the stores",
-    "featured_image": "http://www.ianmagarzo.com/wp-content/uploads/2018/09/0.Front_-980x551.png",
+    "featured_image": "https://victorblancogarcia.com/img/portfolio/pc/header_pc.png",
     "tags": [
       "Android",
       "API"
@@ -70,11 +70,12 @@
       "link": ""
     },
     "images": [
-      "http://www.ianmagarzo.com/wp-content/uploads/2018/09/1.Table_Map.png",
-      "http://www.ianmagarzo.com/wp-content/uploads/2018/09/2.Detail.png",
-      "http://www.ianmagarzo.com/wp-content/uploads/2018/09/3.Search.png",
-      "http://www.ianmagarzo.com/wp-content/uploads/2018/09/4.Order_Filter.png",
-      "http://www.ianmagarzo.com/wp-content/uploads/2018/09/5.Favorites.png"
+      "https://victorblancogarcia.com/img/portfolio/pc/pc_1.png",
+      "https://victorblancogarcia.com/img/portfolio/pc/pc_2.png",
+      "https://victorblancogarcia.com/img/portfolio/pc/pc_3.png",
+      "https://victorblancogarcia.com/img/portfolio/pc/pc_4.png",
+      "https://victorblancogarcia.com/img/portfolio/pc/pc_5.png"
+
     ],
     "max_width": 400
   },
