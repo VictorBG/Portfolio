@@ -125,15 +125,16 @@
                     Source: 'Víctor Blanco <victorblancogarcia3@gmail.com>',
                 };
                 let sendPromise = new AWS.SES().sendEmail(params).promise();
+                let self = this;
                 sendPromise.then(
                     function (data) {
-                        this.snack = {
+                        self.snack = {
                             message: 'Thanks for contacting with me, I will answer you as soon as possible!',
                             timeout: 3500
                         };
                     }).catch(
                     function (err) {
-                        this.snack = {
+                        self.snack = {
                             message: 'An error has occurred, please try again later.',
                             timeout: 2000
                         };
