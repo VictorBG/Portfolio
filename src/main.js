@@ -3,20 +3,22 @@
 import Vue from 'vue'
 
 import VueMDCAdapter from 'vue-mdc-adapter'
-import vueSmoothScroll from 'vue-smooth-scroll'
+import VueSmoothScroll from 'vue-scrollto'
 import './theme.scss'
 import App from './App'
 import router from './router'
 import VueSticky from 'vue-sticky'
 import VueCarousel from '@chenfengyuan/vue-carousel';
 import VueAgile from 'vue-agile'
+import VueScrollactive from 'vue-scrollactive';
 
 Vue.config.productionTip = false;
 
 Vue.use(VueMDCAdapter);
-Vue.use(vueSmoothScroll);
 Vue.use(VueSticky);
 Vue.use(VueAgile);
+Vue.use(VueSmoothScroll);
+Vue.use(VueScrollactive);
 Vue.component(VueCarousel.name, VueCarousel);
 
 
@@ -31,7 +33,8 @@ const app = new Vue({
     components: {App},
     data() {
         return {
-            tabActive: 0
+            tabActive: 0,
+            navigated: false
         }
     },
     mounted: function () {

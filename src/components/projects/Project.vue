@@ -96,8 +96,9 @@
     }
 
     .description {
-        font-family: "Roboto Regular", serif;
-        font-size: 1.15rem;
+        font-family: "Open Sans", serif;
+        font-weight: 500;
+        font-size: 1.05rem;
         color: #747373;
         padding: 0;
         margin: 0;

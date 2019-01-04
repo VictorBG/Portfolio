@@ -44,16 +44,6 @@
             onClick() {
                 sendMail();
             }
-        },
-        mounted: function () {
-            let self = this;
-            window.addEventListener('scroll', function (ev) {
-                if ((window.innerHeight + window.scrollY + 50) >= document.body.offsetHeight) {
-                    // you're at the bottom of the page
-                    self.$root.$emit('forceChangeTab', 2);
-                }
-
-            });
         }
     }
 
@@ -62,7 +52,7 @@
         console.log("aaaaa");
 
 
-        //TODO Once checked prepared all the data and send the mail to the contact mail contact@victorblancogarcia.com
+        //TODO Once checked prepare all the data and send the mail to the contact mail contact@victorblancogarcia.com
     }
 </script>
 

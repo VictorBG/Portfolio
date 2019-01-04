@@ -12,8 +12,7 @@
             <br>
             <p class="extra-title" v-show="service.extra.title!=null">{{service.extra.title}}</p>
             <p v-for="extra in service.extra.list" class="extra-description" v-show="service.extra.title!=null">{{extra}}</p>
-            <br v-show="service.extra.title!=null">
-            <br v-show="service.extra.title!=null">
+            <div class="space-20"></div>
         </mdc-card>
     </mdc-layout-cell>
 </template>
@@ -31,6 +30,10 @@
 
     .full {
         height: 100% !important;
+    }
+
+    .space-20 {
+        height: 20px;
     }
     mdc-card {
         position: relative;
@@ -57,7 +60,7 @@
         padding-right:32px;
         padding-left:32px;
         font-weight: 500;
-        font-family: "Roboto Regular", serif;
+        font-family: "Open Sans", serif;
         color: #555555;
     }
 
@@ -72,7 +75,8 @@
         margin: 0;
         padding: 6px;
         color: #555555;
-        font-family: "Roboto Regular", serif;
+        font-weight: 500;
+        font-family: "Open Sans", serif;
     }
 
 </style>

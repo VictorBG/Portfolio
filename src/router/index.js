@@ -4,7 +4,7 @@ import HelloWorld from '../components/HelloWorld'
 import MainSection from '../MainSection'
 import ProjectInfo from '../components/ProjectInfo'
 
-Vue.use(Router)
+Vue.use(Router);
 
 export default new Router({
     routes: [

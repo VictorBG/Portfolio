@@ -28,16 +28,6 @@
             return {
                 projects
             }
-        },
-        mounted: function () {
-            let self=this;
-            let projectsSection = this.$refs.projectsection;
-            window.addEventListener('scroll', function (ev) {
-
-                 let distanceToTop = projectsSection.getBoundingClientRect().top;
-                 self.$root.$emit('changeScroll', 1, distanceToTop);
-
-            });
         }
     }
 </script>
