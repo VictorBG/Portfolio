@@ -36,13 +36,8 @@ const app = new Vue({
             tabActive: 0,
             navigated: false
         }
-    },
-    mounted: function () {
-        this.$root.$on('switchTab', function (index) {
-
-        })
     }
-}).$mount('#app')
+}).$mount('#app');
 
 
 
