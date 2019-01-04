@@ -1,13 +1,11 @@
 <template>
     <div v-sticky="{stickyTop: 0}">
-        <!-- mdc-elevation--z6 -->
         <div class="bg" ref="bg">
             <!--<mdc-tab-bar @change="onSelected">-->
             <mdc-tab-bar>
-                <!--TODO I don't know how to put this into a for statement without setting the active variable to all-->
-                <mdc-tab :active="$root.tabActive===0" event="clickTab" :event-args=[0]>{{sections[0]}}</mdc-tab>
-                <mdc-tab :active="$root.tabActive===1" event="clickTab" :event-args=[1]>{{sections[1]}}</mdc-tab>
-                <mdc-tab :active="$root.tabActive===2" event="clickTab" :event-args=[2]>{{sections[2]}}</mdc-tab>
+                <mdc-tab v-for="(s, index) in sections" :key="index" :active="$root.tabActive===index" event="clickTab"
+                         :event-args=[index]>{{sections[index]}}
+                </mdc-tab>
             </mdc-tab-bar>
         </div>
     </div>
@@ -19,6 +17,9 @@
         name: "Tabs",
         methods: {
             onSelected(idx) {
+                if (this.$root.tabActive === idx) return; //Prevent duplicate animations
+                this.$root.tabActive = idx;
+
                 window.removeEventListener('scroll', this.onScroll);
 
                 if (this.cancelScroll !== undefined) {
@@ -53,8 +54,8 @@
                     const distanceFromTop = window.scrollTop || window.pageYOffset;
                     const isScreenPastSection = distanceFromTop >= this.getOffsetTop(target);
                     const isScreenBeforeSectionEnd = distanceFromTop
-                        //this.offset should be the toolbar offset
-                        < (this.getOffsetTop(target) /*- this.offset*/) + target.offsetHeight;
+
+                        < (this.getOffsetTop(target) - this.toolbarHeight) + target.offsetHeight;
 
                     if (isFirstItem) {
                         if (isScreenBeforeSectionEnd) currentItem = i;
@@ -84,13 +85,15 @@
             const sections = ['About', 'Projects', 'Contact'];
             return {
                 sections,
-                cancelScroll: undefined
+                cancelScroll: undefined,
+                toolbarHeight: 0
             }
         },
         mounted: function () {
             window.addEventListener('scroll', this.onScroll);
 
-            let self=this;
+            let self = this;
+            this.toolbarHeight = this.$refs.bg.clientHeight;
             this.$root.$on('clickTab', function (index) {
                 self.onSelected(index);
             })
