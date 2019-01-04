@@ -8,7 +8,8 @@
                 <mdc-icon :class="s.logo"></mdc-icon>
             </a>
         </div>
-        <p>Handmade by me © 2019</p>
+        <p>Handmade by me © 2019 | <a class="link" target="_blank" href="https://github.com/VictorBG/Portfolio">This website
+            repository</a></p>
     </div>
 </template>
 

@@ -2,9 +2,9 @@
   {
     "id": 1,
     "title": "Ya llego",
-    "short_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-    "large_description": "Falset is an application which combines the beacons and geolocalization technologies to guide the user inside the village through touristic routes and show the user the most important and historic places of the village.<br/><br/>The app is developed natively for Android and iOS (you can find it in both stores) using native technology and the backend has been developed using the Slim Framework.",
-    "featured_image": "https://victorblancogarcia.com/img/portfolio/falset/falset-header.png",
+    "short_description": "YaLlego is born from the need to have a reliable and intuitive app to consult the train schedules.",
+    "large_description": "YaLlego is born from the need to have a reliable and intuitive app to consult the train schedules. It has been developed using native technologies in both so, you can find it in both stores.<br><br>I only developed the Android application",
+    "featured_image": "https://victorblancogarcia.com/img/portfolio/yallego/header.png",
     "tags": [
       "Android"
     ],
@@ -13,21 +13,24 @@
       "title": "SEE ON GOOGLE PLAY",
       "availabilityVisible": true,
       "availabilityMessage": "Only available in Spain",
-      "link": "https://google.es"
+      "link": "https://play.google.com/store/apps/details?id=com.jusaba.yallego&hl=es"
     },
-    "images" : [
-      "https://victorblancogarcia.com/img/portfolio/falset/falset1.png",
-      "https://victorblancogarcia.com/img/portfolio/falset/falset2.png",
-      "https://victorblancogarcia.com/img/portfolio/falset/falset3.png",
-      "https://victorblancogarcia.com/img/portfolio/falset/falset4.png"
-    ]
+    "images": [
+      "https://victorblancogarcia.com/img/portfolio/yallego/y1.png",
+      "https://victorblancogarcia.com/img/portfolio/yallego/y2.png",
+      "https://victorblancogarcia.com/img/portfolio/yallego/y3.png",
+      "https://victorblancogarcia.com/img/portfolio/yallego/y4.png",
+      "https://victorblancogarcia.com/img/portfolio/yallego/y5.png",
+      "https://victorblancogarcia.com/img/portfolio/yallego/y6.png"
+    ],
+    "max_width": 250
 
   },
   {
     "id": 2,
     "title": "Falset",
-    "short_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-    "large_description": "Falset is an application which combines the beacons and geolocalization technologies to guide the user inside the village through touristic routes and show the user the most important and historic places of the village.<br/><br/>The app is developed natively for Android and iOS (you can find it in both stores) using native technology and the backend has been developed using the Slim Framework.",
+    "short_description": "Falset is an application which combines Beacons and geolocalization technologies to guide the user inside the village through touristic routes and show the user the most important and historic places of the village.",
+    "large_description": "Falset is an application which combines Beacons and geolocalization technologies to guide the user inside the village through touristic routes and show the user the most important and historic places of the village.<br/><br/>The app is developed natively for Android and iOS (you can find it in both stores) using native technology and the backend has been developed using the Slim Framework.",
     "featured_image": "https://victorblancogarcia.com/img/portfolio/falset/falset-header.png",
     "tags": [
       "Android",
@@ -38,37 +41,131 @@
       "title": "SEE ON GOOGLE PLAY",
       "availabilityVisible": true,
       "availabilityMessage": "Only available in Spain",
-      "link": "https://google.es"
+      "link": "https://play.google.com/store/apps/details?id=com.creativialab.falset"
     },
     "images" : [
       "https://victorblancogarcia.com/img/portfolio/falset/falset1.png",
       "https://victorblancogarcia.com/img/portfolio/falset/falset2.png",
       "https://victorblancogarcia.com/img/portfolio/falset/falset3.png",
-      "https://victorblancogarcia.com/img/portfolio/falset/falset4.png"
-    ]
+      "https://victorblancogarcia.com/img/portfolio/falset/falset4.png",
+      "https://victorblancogarcia.com/img/portfolio/falset/falset5.png"
+    ],
+    "max_width": 250
   },
   {
     "id": 3,
-    "title": "PropertyCross",
-    "short_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-    "large_description": "Is an application for native platforms which allows you to find properties in rental or sale, order them by price, space or proximity and search them by name.",
+    "title": "Vivienda Pro",
+    "short_description": "Vivienda Pro is an application which allows you to find properties in rental or sale",
+    "large_description": "Vivienda Pro is an application which allows you to find properties in rental or sale, order them by price, space or proximity and search them by name.<br><br>The app is developed for Android and iOS, and has a backend composed by the Javascript Framework called Meteor which runs over Node JS and MongoDB as database engine.<br><br>This project was for the university and is not available in the stores",
     "featured_image": "http://www.ianmagarzo.com/wp-content/uploads/2018/09/0.Front_-980x551.png",
     "tags": [
       "Android",
       "API"
     ],
     "button": {
-      "enabled": true,
-      "title": "VIEW ON GITHUB",
-      "availabilityVisible": true,
-      "availabilityMessage": "Only available in Spain",
-      "link": "https://google.es"
+      "enabled": false,
+      "title": "",
+      "availabilityVisible": false,
+      "availabilityMessage": "",
+      "link": ""
     },
-    "images" : [
-      "https://victorblancogarcia.com/img/portfolio/falset/falset1.png",
-      "https://victorblancogarcia.com/img/portfolio/falset/falset2.png",
-      "https://victorblancogarcia.com/img/portfolio/falset/falset3.png",
-      "https://victorblancogarcia.com/img/portfolio/falset/falset4.png"
-    ]
+    "images": [
+      "http://www.ianmagarzo.com/wp-content/uploads/2018/09/1.Table_Map.png",
+      "http://www.ianmagarzo.com/wp-content/uploads/2018/09/2.Detail.png",
+      "http://www.ianmagarzo.com/wp-content/uploads/2018/09/3.Search.png",
+      "http://www.ianmagarzo.com/wp-content/uploads/2018/09/4.Order_Filter.png",
+      "http://www.ianmagarzo.com/wp-content/uploads/2018/09/5.Favorites.png"
+    ],
+    "max_width": 400
+  },
+  {
+    "id": 4,
+    "title": "Type Speed Test",
+    "short_description": "A spanish type speed test build with only JavaScript.",
+    "large_description": "A spanish type speed test build with JavaScript. <br><br> You can find the source code on <a class=\"link\" href=\"https://github.com/VictorBG/TypeSpeedTest\" target=\"_blank\">Github</a>",
+    "featured_image": "https://victorblancogarcia.com/img/portfolio/typespeedtest/tps_mockup.png",
+    "tags": [
+      "Android",
+      "API"
+    ],
+    "button": {
+      "enabled": true,
+      "title": "Website",
+      "availabilityVisible": false,
+      "availabilityMessage": "",
+      "link": "https://victorblancogarcia.com/proyectos/typespeedtest/"
+    },
+    "images": [
+      "https://victorblancogarcia.com/img/portfolio/typespeedtest/tps_mockup.png"
+    ],
+    "max_width": 400
+  },
+  {
+    "id": 5,
+    "title": "AnimeT",
+    "short_description": "AnimeT is an app to keep up to date with all related to anime world.",
+    "large_description": "AnimeT is an app to keep up to date with all related to anime world. <br><br>Actually it is being redesigned and is not available in the Play Store. As long as the redesign is finished it will be published again.",
+    "featured_image": "https://victorblancogarcia.com/img/portfolio/animet/animet-1.png",
+    "tags": [
+      "Android",
+      "API"
+    ],
+    "button": {
+      "enabled": false,
+      "title": "",
+      "availabilityVisible": false,
+      "availabilityMessage": "",
+      "link": ""
+    },
+    "images": [
+      "https://victorblancogarcia.com/img/portfolio/animet/animet-1.png",
+      "https://victorblancogarcia.com/img/portfolio/animet/animet-2.png",
+      "https://victorblancogarcia.com/img/portfolio/animet/animet-3.png",
+      "https://victorblancogarcia.com/img/portfolio/animet/animet-4.png",
+      "https://victorblancogarcia.com/img/portfolio/animet/animet-5.png"
+    ],
+    "max_width": 250
+  },
+  {
+    "id": 6,
+    "title": "Private Project",
+    "short_description": "This is currently a private Android project. The project is an application of a popular sports club.<br><br> App pendant of client approval",
+    "large_description": "At Creativialab I have developed an Android app that allows customers to follow the news of the club, enjoy a promotions system, league classification and next match information.<br><br> I also developed the backend using Slim Framework, MySQL as database and deployed in AWS.<br><br><strong>App pendant of client approval</strong>",
+    "featured_image": "https://victorblancogarcia.com/img/portfolio/circus.png",
+    "tags": [
+      "Android",
+      "API"
+    ],
+    "button": {
+      "enabled": false,
+      "title": "",
+      "availabilityVisible": false,
+      "availabilityMessage": "",
+      "link": ""
+    },
+    "images": [
+    ],
+    "max_width": 250
+  },
+  {
+    "id": 7,
+    "title": "Private Project",
+    "short_description": "This is currently a private Android project. The project is based in a major car brand on a popular city.<br><br> App pendant of client approval",
+    "large_description": "At Creativialab I have developed an Android app that allows customers to localize the nearest workshops and ask for an appointment to repair their cars, read news from the web, enjoy promotions with their own system of points added via QR codes or through questionnaires in the App, and also has segmented notifications according to the type of user.<br><br> I also developed the Backend using Slim Framework, MySQL as database and deployed in AWS<br><br><strong>App pendant of client approval</strong>",
+    "featured_image": "https://victorblancogarcia.com/img/portfolio/circus.png",
+    "tags": [
+      "Android",
+      "API"
+    ],
+    "button": {
+      "enabled": false,
+      "title": "",
+      "availabilityVisible": false,
+      "availabilityMessage": "",
+      "link": ""
+    },
+    "images": [
+    ],
+    "max_width": 250
   }
 ]

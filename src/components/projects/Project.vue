@@ -13,7 +13,7 @@
                         <!--<mdc-chip v-for="tag in project.tags" :key="tag">{{tag}}</mdc-chip>-->
                     <!--</mdc-chip-set>-->
                     <br>
-                    <p class="description">{{project.short_description}}</p>
+                    <p class="description" v-html="project.short_description"></p>
                 </mdc-layout-cell>
             </mdc-layout-grid>
             <div class="divider" v-if="line"></div>
@@ -55,10 +55,20 @@
         width: 100%;
         height: 193px;
         object-fit: cover;
+        /*-webkit-transform: scale(1);*/
+        /*transform: scale(1);*/
+        /*-webkit-transition: .3s ease-in-out;*/
+        /*transition: .3s ease-in-out;*/
     }
 
     .featured-image:hover {
         cursor: pointer;
+        /*-webkit-filter: drop-shadow(4px 4px 3px gray);*/
+        /*filter: drop-shadow(4px 4px 3px gray);*/
+        /*-webkit-transform: scale(1.01);*/
+        /*transform: scale(1.01);*/
+        /*-webkit-transition: all .3s ease-in-out;*/
+        /*transition: all .3s ease-in-out;*/
     }
 
     .project-content {

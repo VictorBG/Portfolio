@@ -19,13 +19,13 @@
 
                 <mdc-layout-cell desktop=6 tablet=6 class="centered-container">
                     <div class="centered-vertically">
-                        <carousel :data="images" :controls="true" :interval="7500"></carousel>
+                        <carousel :data="images" :interval="7500"></carousel>
                     </div>
                 </mdc-layout-cell>
             </mdc-layout-grid>
 
         </div>
-        <Footer></Footer>
+        <Footer class="footer"></Footer>
         <router-link to="/"><img id="logo" src="../assets/logo_no_name_black.svg"></router-link>
     </div>
 
@@ -70,7 +70,7 @@
 
             let l = this.currentProject.images.length;
             for (i = 0; i < l; i++) {
-                this.images.push(`<div class='slide'> <img width="250" src="${this.currentProject.images[i]}"></div>`);
+                this.images.push(`<div class='slide'> <img width="${this.currentProject.max_width}" src="${this.currentProject.images[i]}"></div>`);
             }
         }
     }
@@ -110,6 +110,7 @@
         font-size: 1rem;
         font-family: "Roboto Medium", serif;
         padding-top: 75px;
+        line-height: 25px;
         text-align: justify;
     }
 
@@ -151,15 +152,6 @@
         padding-left: 50px;
         padding-right: 50px;
         text-align: left;
-    }
-
-    .footer {
-        background-color: #EEEFE5;
-        padding-top: 16px;
-        padding-bottom: 16px;
-        width: 100%;
-        position: absolute;
-        bottom: 0;
     }
 
     .navigate-project {
@@ -247,5 +239,6 @@
     .sides-margin {
         margin-right: 15%;
         margin-left: 15%;
+        min-height: 90vh;
     }
 </style>

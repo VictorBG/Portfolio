@@ -62,4 +62,9 @@
         margin-left: 8%;
         margin-right: 8%;
     }
+
+    ::selection{
+        background: #ff0044;
+        color: white;
+    }
 </style>
