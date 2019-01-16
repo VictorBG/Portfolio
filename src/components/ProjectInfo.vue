@@ -89,6 +89,17 @@
         left: 0;
     }
 
+    .title {
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
+        margin: 0;
+        transition: all .2s;
+        font-size: 2rem;
+        color: black;
+        padding-top: 50px;
+        text-transform: uppercase;
+    }
+
     .slide {
         align-items: center;
         justify-content: center;
@@ -108,7 +119,8 @@
     .main-text {
         color: #747373;
         font-size: 1rem;
-        font-family: "Roboto Medium", serif;
+        font-family: "Montserrat", serif;
+        font-weight: 500;
         padding-top: 75px;
         line-height: 25px;
         text-align: justify;
@@ -136,7 +148,8 @@
     .availability-text {
         color: #747373;
         font-size: .8rem;
-        font-family: "Roboto Black", serif;
+        font-family: "Montserrat", serif;
+        font-weight: 600;
         padding-top: 8px;
         margin: 0;
         text-align: justify;
@@ -217,23 +230,6 @@
     .project-grid {
         padding-left: 0;
         padding-right: 0;
-    }
-
-    .title {
-        font-family: "Roboto Black", serif;
-        font-size: 2rem;
-        color: black;
-        padding-top: 50px;
-        margin: 0;
-        text-transform: uppercase;
-    }
-
-    .footer p {
-
-        font-family: "Roboto Light", serif;
-        color: #747373;
-        margin: 0;
-
     }
 
     .sides-margin {
