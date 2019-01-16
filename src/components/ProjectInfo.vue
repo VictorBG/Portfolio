@@ -81,7 +81,7 @@
 
     #logo {
         position: absolute;
-        margin: 32px;
+        margin: 16px;
         cursor: pointer;
         height: 50px;
         width: 50px;
@@ -96,7 +96,7 @@
         transition: all .2s;
         font-size: 2rem;
         color: black;
-        padding-top: 50px;
+        padding-top: 74px;
         text-transform: uppercase;
     }
 
