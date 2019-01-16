@@ -6,7 +6,7 @@
                     <router-link :to="{name: 'ProjectInfo', params: {id: project.id}}" tag="img" class="featured-image" :src="project.featured_image"></router-link>
                 </mdc-layout-cell>
 
-                <mdc-layout-cell desktop=8 tablet=8 class="project-description-container">
+                <mdc-layout-cell desktop=8 tablet=4 class="project-description-container">
                     <router-link :to="{name: 'ProjectInfo', params: {id: project.id}}" tag="p" class="title" >{{project.title}}</router-link>
                     <!--<br>-->
                     <!--<mdc-chip-set style="padding-left:0">-->
@@ -92,7 +92,8 @@
     }
 
     .title {
-        font-family: "Roboto Medium", serif;
+        font-weight: 600;
+        font-family: 'Montserrat', sans-serif;
         font-size: 1.40rem;
         color: black;
         padding: 0;
@@ -106,26 +107,13 @@
     }
 
     .description {
-        font-family: "Open Sans", serif;
         font-weight: 500;
+        font-family: 'Montserrat', sans-serif;
+        width: auto;
         font-size: 1.05rem;
         color: #747373;
         padding: 0;
         margin: 0;
     }
 
-    .mdc-chip.mdc-chip--selected {
-      color: #ff0044 !important;
-    }
-    .mdc-chip.mdc-chip--selected:hover {
-        color: #ff0044 !important;
-    }
-
-    .mdc-chip.mdc-chip--selected::before, .mdc-chip.mdc-chip--selected::after{
-        background-color: #ff0044 !important;
-    }
-
-    .mdc-chip__checkmark-path {
-        stroke: #ff0044 !important;
-    }
 </style>

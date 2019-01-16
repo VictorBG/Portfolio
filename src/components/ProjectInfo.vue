@@ -6,7 +6,7 @@
         <div class="sides-margin">
             <h3 class="title">{{currentProject.title}}</h3>
             <mdc-layout-grid class="project-grid">
-                <mdc-layout-cell desktop=6 tablet=6 class="left-container">
+                <mdc-layout-cell desktop=6 tablet=8 phone=4 class="left-container">
                     <p class="main-text" v-html="currentProject.large_description"></p>
                     <br>
                     <br>
@@ -17,7 +17,7 @@
                         {{currentProject.button.availabilityMessage}}</p>
                 </mdc-layout-cell>
 
-                <mdc-layout-cell desktop=6 tablet=6 class="centered-container">
+                <mdc-layout-cell desktop=6 tablet=4 phone=4 class="centered-container">
                     <div class="centered-vertically">
                         <carousel :data="images" :interval="7500"></carousel>
                     </div>
@@ -149,8 +149,8 @@
     }
 
     .left-container {
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 5%px;
+        /*padding-right: 50px;*/
         text-align: left;
     }
 

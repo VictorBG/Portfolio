@@ -46,7 +46,8 @@
 
     .title {
         font-size: 1.6rem;
-        font-family: "Roboto Black", serif;
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
     }
 </style>
 

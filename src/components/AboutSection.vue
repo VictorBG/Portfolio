@@ -5,7 +5,7 @@
                 <mdc-layout-cell desktop=4 tablet=4 align="middle">
                     <img class="profile-image mdc-elevation--z8" id="logo" src="../assets/avatar.png">
                 </mdc-layout-cell>
-                <mdc-layout-cell desktop=8 tablet=8 style=" text-align: justify;text-justify: inter-word;"
+                <mdc-layout-cell desktop=8 tablet=8 style=" text-align: justify;text-justify: inter-word; width: auto"
                                  align="middle">
                     <p class="main-text">Computer science student ending his degree with experience in design
                         and programming. I'm quietly confident, naturally curious, and perpetually improving my chops.<br><br>My main goal
@@ -42,19 +42,23 @@
 <style scoped>
 
     .services-grid {
-        margin-top: 100px;
+        /*margin-top: 100px;*/
     }
 
     .service-card {
         height: 100%;
     }
 
+    .sides-margin {
+        margin-right: 15%;
+        margin-left: 15%;
+        min-height: 90vh;
+    }
+
     .bg {
         background-color: #EEEFE5;
-        padding-bottom: 75px;
-        padding-top: 100px;
-        padding-left: 5%;
-        padding-right: 5%
+        padding: 100px 5% 75px;
+
     }
 
     .profile-image {
@@ -64,9 +68,9 @@
 
     .main-text {
         color: #747373;
-        font-size: 1.15rem;
-        font-weight: 300;
-        font-family: "Roboto Medium", serif;
+        font-size: 1.05rem;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
 
     }
 </style>

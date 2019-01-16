@@ -33,24 +33,27 @@
     }
 
     #text_introduction {
-        font-family: "Roboto Medium", sans-serif;
+        font-family: 'Montserrat', sans-serif;
         padding-bottom: 8px;
         padding-right: 32px;
         padding-left: 32px;
         line-height: 30px;
-        font-size: 2rem;
+        font-size: 1.8rem;
+        font-weight: 600;
 
 
     }
 
     #desc_introduction {
-        font-family: "Roboto Light", sans-serif;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
         padding-bottom: 32px;
         padding-right: 32px;
         padding-left: 32px;
         line-height: 30px;
         color: #747373;
-        font-size: 1.1rem;
+        font-size: 1rem;
+
     }
 
     h3 {

@@ -5,13 +5,17 @@
     "description": "I tend to code everything it comes to my mind in a clean way with a beautiful design.",
     "logo": "https://victorblancogarcia.com/img/placeholder/android_development.svg",
     "extra": {
-      "title": null
+      "title": null,
+      "list": [
+        "Geolocalization",
+        "Beacons"
+      ]
     }
   },
   {
     "id": 2,
     "title": "Front-end",
-    "description": "I love to design and develop websites from a simple website to a complex.",
+    "description": "I love to design and develop websites from the most simple website to a complex one.",
     "logo": "https://victorblancogarcia.com/img/placeholder/web_development.svg",
     "extra": {
       "title": "What I use",

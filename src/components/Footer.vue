@@ -78,14 +78,15 @@
     }
 
     #logo {
-        height: 3%;
-        width: 3%;
+        height: 56px;
+        width: 56px;
         margin-top: 32px;
         margin-bottom: 16px;
     }
 
     p {
-        font-family: "Roboto Light", serif;
+        font-weight: 400;
+        font-family: 'Montserrat', sans-serif;
         color: #747373;
         margin: 0;
     }

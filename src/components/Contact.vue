@@ -154,13 +154,14 @@
 
     .title {
         font-size: 1.6rem;
-        font-family: "Roboto Black", serif;
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
     }
 
     .desc {
         font-size: 1.1rem;
-        font-family: "Roboto Medium", serif;
-        font-weight: normal;
+        font-weight: 500;
+        font-family: 'Montserrat', sans-serif;
         color: #474748;
     }
 
