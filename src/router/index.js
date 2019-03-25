@@ -7,6 +7,7 @@ import ProjectInfo from '../components/ProjectInfo'
 Vue.use(Router);
 
 export default new Router({
+    mode: 'history',
     routes: [
         {
             path: '/world',

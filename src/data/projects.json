@@ -1,10 +1,33 @@
 [
   {
+    "id": 8,
+    "title": "Raco",
+    "short_description": "An unnoficial client for El Racó, an intranet for FIB students.",
+    "large_description": "An unnoficial client for <a href=\"https://raco.fib.upc.edu/\" target=\"_blank\">El Racó</a>, an intranet for <a href=\"https://www.fib.upc.edu/en\" target=\"_blank\">FIB</a> students.<br><br>The app is currently in heavy development.",
+    "featured_image": "https://lh3.googleusercontent.com/f4w2G96Zf6tJqvJoiafXakikf-ogoDNEPGNM-kPP02NUQmdAOoeNJIib42saMJD35Q=h150",
+    "tags": [
+      "Android"
+    ],
+    "button": {
+      "enabled": true,
+      "title": "SEE ON GITHUB",
+      "availabilityVisible": false,
+      "availabilityMessage": "Only available in Spain",
+      "link": "https://github.com/VictorBG/RacoFib"
+    },
+    "images": [
+      "https://lh3.googleusercontent.com/IaRebxj168oJJFbxZiunt7-ei_fyfqMQDT1943cXA_oDeLzfYIPLWnv_hzxa-eQVBa06=w2560-h606",
+      "https://lh3.googleusercontent.com/zQLKAhZ8RLgsn8LC4WCQ2XEHv9h0jhyGD0qBn5Xv8Q4JWQw3Nze8Mwp2XIJ3mFq_qA=w2560-h606"
+    ],
+    "max_width": 250
+
+  },
+  {
     "id": 1,
     "title": "Ya llego",
     "short_description": "YaLlego is born from the need to have a reliable and intuitive app to consult the train schedules.",
     "large_description": "YaLlego is born from the need to have a reliable and intuitive app to consult the train schedules. It has been developed using native technologies in both so, you can find it in both stores.<br><br>I only developed the Android application.",
-    "featured_image": "https://victorblancogarcia.com/img/portfolio/yallego/header.png",
+    "featured_image": "https://firebasestorage.googleapis.com/v0/b/portfolio-2e88e.appspot.com/o/YaLlego%2Fheader.png?alt=media&token=a934d951-a42a-4f00-a73b-d21fa197dd55",
     "tags": [
       "Android"
     ],
@@ -16,12 +39,12 @@
       "link": "https://play.google.com/store/apps/details?id=com.jusaba.yallego&hl=es"
     },
     "images": [
-      "https://victorblancogarcia.com/img/portfolio/yallego/y1.png",
-      "https://victorblancogarcia.com/img/portfolio/yallego/y2.png",
-      "https://victorblancogarcia.com/img/portfolio/yallego/y3.png",
-      "https://victorblancogarcia.com/img/portfolio/yallego/y4.png",
-      "https://victorblancogarcia.com/img/portfolio/yallego/y5.png",
-      "https://victorblancogarcia.com/img/portfolio/yallego/y6.png"
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-2e88e.appspot.com/o/YaLlego%2Fy1.png?alt=media&token=1d1a9f92-e11f-4387-88fe-79a8187a8830",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-2e88e.appspot.com/o/YaLlego%2Fy2.png?alt=media&token=1302783c-4234-4608-a60d-667a0849d13b",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-2e88e.appspot.com/o/YaLlego%2Fy3.png?alt=media&token=8099797c-df28-4f74-8265-8934c75acd73",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-2e88e.appspot.com/o/YaLlego%2Fy4.png?alt=media&token=a77989c8-5753-4cd8-9971-d27275ee91d7",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-2e88e.appspot.com/o/YaLlego%2Fy5.png?alt=media&token=4df93580-bdad-43a2-9b75-ebead516b4e1",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-2e88e.appspot.com/o/YaLlego%2Fy6.png?alt=media&token=64293737-a767-4e09-b3b6-903257088522"
     ],
     "max_width": 250
 
@@ -31,7 +54,7 @@
     "title": "Falset",
     "short_description": "Falset is an application which combines Beacons and geolocalization technologies to guide the user inside the village through touristic routes and show the user the most important and historic places of the village.",
     "large_description": "Falset is an application which combines Beacons and geolocalization technologies to guide the user inside the village through touristic routes and show the user the most important and historic places of the village.<br/><br/>The app is developed natively for Android and iOS (you can find it in both stores) using native technology and the backend has been developed using the Slim Framework.",
-    "featured_image": "https://victorblancogarcia.com/img/portfolio/falset/falset-header.png",
+    "featured_image": "https://firebasestorage.googleapis.com/v0/b/portfolio-2e88e.appspot.com/o/Falset%2Ffalset-header.png?alt=media&token=113c4c21-676d-4b5e-9093-d02deb6d6e4a",
     "tags": [
       "Android",
       "API"
@@ -44,11 +67,11 @@
       "link": "https://play.google.com/store/apps/details?id=com.creativialab.falset"
     },
     "images" : [
-      "https://victorblancogarcia.com/img/portfolio/falset/falset1.png",
-      "https://victorblancogarcia.com/img/portfolio/falset/falset2.png",
-      "https://victorblancogarcia.com/img/portfolio/falset/falset3.png",
-      "https://victorblancogarcia.com/img/portfolio/falset/falset4.png",
-      "https://victorblancogarcia.com/img/portfolio/falset/falset5.png"
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-2e88e.appspot.com/o/Falset%2Ffalset1.png?alt=media&token=88900deb-0289-42d6-a274-e2d4d76ff482",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-2e88e.appspot.com/o/Falset%2Ffalset2.png?alt=media&token=f4b20bea-bb4e-49fd-bc3e-7620581a7aef",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-2e88e.appspot.com/o/Falset%2Ffalset3.png?alt=media&token=46fb8f0a-577f-42b3-b22d-ef5b4b94a23f",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-2e88e.appspot.com/o/Falset%2Ffalset4.png?alt=media&token=86e5bfca-8f7f-4c7f-9bbb-3922dd299733",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-2e88e.appspot.com/o/Falset%2Ffalset5.png?alt=media&token=8a68df43-9a1e-4243-9aa1-687d3e2858c0"
     ],
     "max_width": 250
   },
@@ -57,7 +80,7 @@
     "title": "Vivienda Pro",
     "short_description": "Vivienda Pro is an application which allows you to find properties in rental or sale",
     "large_description": "Vivienda Pro is an application which allows you to find properties in rental or sale, order them by price, space or proximity and search them by name.<br><br>The app is developed for Android and iOS, and has a backend composed by the Javascript Framework called Meteor which runs over Node JS and MongoDB as database engine.<br><br>This project was for the university and is not available in the stores",
-    "featured_image": "https://victorblancogarcia.com/img/portfolio/pc/header_pc.png",
+    "featured_image": "https://firebasestorage.googleapis.com/v0/b/portfolio-2e88e.appspot.com/o/ViviendaPro%2Fpc.png?alt=media&token=686a7b01-4dc3-45f9-9af3-3d5a50f80f3e",
     "tags": [
       "Android",
       "API"
@@ -70,11 +93,11 @@
       "link": ""
     },
     "images": [
-      "https://victorblancogarcia.com/img/portfolio/pc/pc_1.png",
-      "https://victorblancogarcia.com/img/portfolio/pc/pc_2.png",
-      "https://victorblancogarcia.com/img/portfolio/pc/pc_3.png",
-      "https://victorblancogarcia.com/img/portfolio/pc/pc_4.png",
-      "https://victorblancogarcia.com/img/portfolio/pc/pc_5.png"
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-2e88e.appspot.com/o/ViviendaPro%2Fpc_1.png?alt=media&token=97bba8ce-f796-485e-9255-2363fb9fa4e3",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-2e88e.appspot.com/o/ViviendaPro%2Fpc_2.png?alt=media&token=30ff9ea1-8ca8-465d-a075-1813474c3be3",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-2e88e.appspot.com/o/ViviendaPro%2Fpc_3.png?alt=media&token=7baf0a5a-49ee-4873-8954-510a348346d7",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-2e88e.appspot.com/o/ViviendaPro%2Fpc_4.png?alt=media&token=f00e64f9-e1e9-4a0f-8ee1-dcac391c101f",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-2e88e.appspot.com/o/ViviendaPro%2Fpc_5.png?alt=media&token=da0e36ab-eda8-4b1e-9c4e-178904630242"
 
     ],
     "max_width": 400
@@ -84,20 +107,20 @@
     "title": "Type Speed Test",
     "short_description": "A spanish type speed test build with only JavaScript.",
     "large_description": "A spanish type speed test build with JavaScript. <br><br> You can find the source code on <a class=\"link\" href=\"https://github.com/VictorBG/TypeSpeedTest\" target=\"_blank\">Github</a>",
-    "featured_image": "https://victorblancogarcia.com/img/portfolio/typespeedtest/tps_mockup.png",
+    "featured_image": "https://firebasestorage.googleapis.com/v0/b/portfolio-2e88e.appspot.com/o/TypeSpeedTest%2Ftps_mockup.png?alt=media&token=691f2287-df60-4915-b507-2bbbf5a3cff4",
     "tags": [
       "Android",
       "API"
     ],
     "button": {
-      "enabled": true,
+      "enabled": false,
       "title": "Website",
       "availabilityVisible": false,
       "availabilityMessage": "",
       "link": "https://victorblancogarcia.com/proyectos/typespeedtest/"
     },
     "images": [
-      "https://victorblancogarcia.com/img/portfolio/typespeedtest/tps_mockup.png"
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-2e88e.appspot.com/o/TypeSpeedTest%2Ftps_mockup.png?alt=media&token=691f2287-df60-4915-b507-2bbbf5a3cff4"
     ],
     "max_width": 400
   },
@@ -106,7 +129,7 @@
     "title": "AnimeT",
     "short_description": "AnimeT is an app to keep up to date with all related to anime world.",
     "large_description": "AnimeT is an app to keep up to date with all related to anime world. <br><br>Actually it is being redesigned and is not available in the Play Store. As long as the redesign is finished it will be published again.",
-    "featured_image": "https://victorblancogarcia.com/img/portfolio/animet/animet-1.png",
+    "featured_image": "https://firebasestorage.googleapis.com/v0/b/portfolio-2e88e.appspot.com/o/AnimeT%2Fanimet-header.png?alt=media&token=d071d352-904c-4b44-bcad-19ebe3b6fa9f",
     "tags": [
       "Android",
       "API"
@@ -119,11 +142,11 @@
       "link": ""
     },
     "images": [
-      "https://victorblancogarcia.com/img/portfolio/animet/animet-1.png",
-      "https://victorblancogarcia.com/img/portfolio/animet/animet-2.png",
-      "https://victorblancogarcia.com/img/portfolio/animet/animet-3.png",
-      "https://victorblancogarcia.com/img/portfolio/animet/animet-4.png",
-      "https://victorblancogarcia.com/img/portfolio/animet/animet-5.png"
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-2e88e.appspot.com/o/AnimeT%2Fanimet-1.png?alt=media&token=05cd9983-ab38-4c22-89a2-bf39e7e1e79d",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-2e88e.appspot.com/o/AnimeT%2Fanimet-2.png?alt=media&token=c60e4a15-30ef-4a4d-882c-d9655d343cc4",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-2e88e.appspot.com/o/AnimeT%2Fanimet-3.png?alt=media&token=e6b5e801-1d77-4e0d-8e91-fc6a0f9bd355",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-2e88e.appspot.com/o/AnimeT%2Fanimet-4.png?alt=media&token=730f787c-e9dc-41a6-997f-dba8f2297e83",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-2e88e.appspot.com/o/AnimeT%2Fanimet-5.png?alt=media&token=bc7f081d-a1c7-4437-86bc-99bdd923999a"
     ],
     "max_width": 250
   },
@@ -132,7 +155,7 @@
     "title": "Private Project",
     "short_description": "This is currently a private Android project. The project is an application of a popular sports club.<br><br> App pendant of client approval",
     "large_description": "At Creativialab I have developed an Android app that allows customers to follow the news of the club, enjoy a promotions system, league classification and next match information.<br><br> I also developed the backend using Slim Framework, MySQL as database and deployed in AWS.<br><br><strong>App pendant of client approval</strong>",
-    "featured_image": "https://victorblancogarcia.com/img/portfolio/circus.png",
+    "featured_image": "https://firebasestorage.googleapis.com/v0/b/portfolio-2e88e.appspot.com/o/safe.png?alt=media&token=a32611f3-808a-44db-be51-56c865ab7615",
     "tags": [
       "Android",
       "API"
@@ -153,7 +176,7 @@
     "title": "Private Project",
     "short_description": "This is currently a private Android project. The project is based in a major car brand on a popular city.<br><br> App pendant of client approval",
     "large_description": "At Creativialab I have developed an Android app that allows customers to localize the nearest workshops and ask for an appointment to repair their cars, read news from the web, enjoy promotions with their own system of points added via QR codes or through questionnaires in the App, and also has segmented notifications according to the type of user.<br><br> I also developed the Backend using Slim Framework, MySQL as database and deployed in AWS<br><br><strong>App pendant of client approval</strong>",
-    "featured_image": "https://victorblancogarcia.com/img/portfolio/circus.png",
+    "featured_image": "https://firebasestorage.googleapis.com/v0/b/portfolio-2e88e.appspot.com/o/safe.png?alt=media&token=a32611f3-808a-44db-be51-56c865ab7615",
     "tags": [
       "Android",
       "API"

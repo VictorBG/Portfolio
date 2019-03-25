@@ -32,7 +32,7 @@
 
 <script>
     import AWS from 'aws-sdk';
-    import config from '../aws.json'
+    import config from '../data/aws.json'
 
     AWS.config.update(config);
 

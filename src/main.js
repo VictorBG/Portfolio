@@ -11,11 +11,13 @@ import VueSticky from 'vue-sticky'
 import VueCarousel from '@chenfengyuan/vue-carousel';
 import VueAgile from 'vue-agile'
 import VueScrollactive from 'vue-scrollactive';
+import {VLazyImagePlugin} from "v-lazy-image";
 
 Vue.config.productionTip = false;
 
 Vue.use(VueMDCAdapter);
 Vue.use(VueSticky);
+Vue.use(VLazyImagePlugin);
 Vue.use(VueAgile);
 Vue.use(VueSmoothScroll);
 Vue.use(VueScrollactive);
