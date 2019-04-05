@@ -4,20 +4,24 @@
     "title": "Raco",
     "short_description": "An unnoficial client for El Racó, an intranet for FIB students.",
     "large_description": "An unnoficial client for <a href=\"https://raco.fib.upc.edu/\" target=\"_blank\">El Racó</a>, an intranet for <a href=\"https://www.fib.upc.edu/en\" target=\"_blank\">FIB</a> students.<br><br>The app is currently in heavy development.",
-    "featured_image": "https://lh3.googleusercontent.com/f4w2G96Zf6tJqvJoiafXakikf-ogoDNEPGNM-kPP02NUQmdAOoeNJIib42saMJD35Q=h150",
+    "featured_image": "https://lh3.googleusercontent.com/0UExu4jrREEuej5ttSDz_xaEcF5K2sxQ7gMey3zdV7p39XAKU8ZiM383VVNlLlmk4kJM",
     "tags": [
       "Android"
     ],
     "button": {
       "enabled": true,
-      "title": "SEE ON GITHUB",
+      "title": "VIEW ON GITHUB",
       "availabilityVisible": false,
       "availabilityMessage": "Only available in Spain",
       "link": "https://github.com/VictorBG/RacoFib"
     },
     "images": [
-      "https://lh3.googleusercontent.com/IaRebxj168oJJFbxZiunt7-ei_fyfqMQDT1943cXA_oDeLzfYIPLWnv_hzxa-eQVBa06=w2560-h606",
-      "https://lh3.googleusercontent.com/zQLKAhZ8RLgsn8LC4WCQ2XEHv9h0jhyGD0qBn5Xv8Q4JWQw3Nze8Mwp2XIJ3mFq_qA=w2560-h606"
+      "https://lh3.googleusercontent.com/WmGR4JZTWWkf5bXsmXFvV6rAxxR720jboJmquGGxGhHD_wSx8hj9A-rpiehQmz5in4Hx",
+      "https://lh3.googleusercontent.com/H5Jn3jZUsA6yCp7b-nEa89mLDds-yLSZYzdSldtbGy9LVYid68aPUNJO9xeeMlgyFKmA",
+      "https://lh3.googleusercontent.com/nPJJYKtbR5b7TO8K0KzzROmGonetCoHTXMN-lxVu7y_dRHl8ca-s31zWMmNAENfM7MU",
+      "https://lh3.googleusercontent.com/4UVXJ8K1qXJ5tpjutApJLfQW7I7Z2fGLoNVVhHq0bl-1P9WymayfW-2Hu9g-XXfhxPI",
+      "https://lh3.googleusercontent.com/iKpGoBHUobhNluJFfSobbUAfSY7d-1HnMM3K0hBnHtaqo1z113xA5M3dhfxpv0cl_BPB",
+      "https://lh3.googleusercontent.com/C4qODC7a48fybEb0Lr5tuRhSWXkMYCsCFf2ESHloYCQxmOm0h_axEgIBvsAtk1XkmEoX"
     ],
     "max_width": 250
 
@@ -33,7 +37,7 @@
     ],
     "button": {
       "enabled": true,
-      "title": "SEE ON GOOGLE PLAY",
+      "title": "VIEW ON GOOGLE PLAY",
       "availabilityVisible": true,
       "availabilityMessage": "Only available in Spain",
       "link": "https://play.google.com/store/apps/details?id=com.jusaba.yallego&hl=es"
@@ -61,7 +65,7 @@
     ],
     "button": {
       "enabled": true,
-      "title": "SEE ON GOOGLE PLAY",
+      "title": "VIEW ON GOOGLE PLAY",
       "availabilityVisible": true,
       "availabilityMessage": "Only available in Spain",
       "link": "https://play.google.com/store/apps/details?id=com.creativialab.falset"
@@ -155,27 +159,6 @@
     "title": "Private Project",
     "short_description": "This is currently a private Android project. The project is an application of a popular sports club.<br><br> App pendant of client approval",
     "large_description": "At Creativialab I have developed an Android app that allows customers to follow the news of the club, enjoy a promotions system, league classification and next match information.<br><br> I also developed the backend using Slim Framework, MySQL as database and deployed in AWS.<br><br><strong>App pendant of client approval</strong>",
-    "featured_image": "https://firebasestorage.googleapis.com/v0/b/portfolio-2e88e.appspot.com/o/safe.png?alt=media&token=a32611f3-808a-44db-be51-56c865ab7615",
-    "tags": [
-      "Android",
-      "API"
-    ],
-    "button": {
-      "enabled": false,
-      "title": "",
-      "availabilityVisible": false,
-      "availabilityMessage": "",
-      "link": ""
-    },
-    "images": [
-    ],
-    "max_width": 250
-  },
-  {
-    "id": 7,
-    "title": "Private Project",
-    "short_description": "This is currently a private Android project. The project is based in a major car brand on a popular city.<br><br> App pendant of client approval",
-    "large_description": "At Creativialab I have developed an Android app that allows customers to localize the nearest workshops and ask for an appointment to repair their cars, read news from the web, enjoy promotions with their own system of points added via QR codes or through questionnaires in the App, and also has segmented notifications according to the type of user.<br><br> I also developed the Backend using Slim Framework, MySQL as database and deployed in AWS<br><br><strong>App pendant of client approval</strong>",
     "featured_image": "https://firebasestorage.googleapis.com/v0/b/portfolio-2e88e.appspot.com/o/safe.png?alt=media&token=a32611f3-808a-44db-be51-56c865ab7615",
     "tags": [
       "Android",

@@ -55,20 +55,22 @@
         width: 100%;
         height: 193px;
         object-fit: cover;
+        border-radius: 8px;
         /*-webkit-transform: scale(1);*/
         /*transform: scale(1);*/
-        /*-webkit-transition: .3s ease-in-out;*/
-        /*transition: .3s ease-in-out;*/
+        -webkit-transition: .2s ease-in-out;
+        transition: .2s ease-in-out;
     }
 
     .featured-image:hover {
         cursor: pointer;
-        /*-webkit-filter: drop-shadow(4px 4px 3px gray);*/
-        /*filter: drop-shadow(4px 4px 3px gray);*/
+        /*border: 2px solid #ff0044;*/
+        -webkit-filter: drop-shadow(4px 4px 3px gray);
+        filter: drop-shadow(4px 4px 3px gray);
         /*-webkit-transform: scale(1.01);*/
         /*transform: scale(1.01);*/
-        /*-webkit-transition: all .3s ease-in-out;*/
-        /*transition: all .3s ease-in-out;*/
+        -webkit-transition: all .2s ease-in-out;
+        transition: all .2s ease-in-out;
     }
 
     .project-content {

@@ -27,7 +27,8 @@
     "vue-smooth-scroll": "^1.0.13",
     "vue-sticky": "^3.3.4",
     "vue-sticky-directive": "0.0.7",
-    "vuex": "^3.0.1"
+    "vuex": "^3.0.1",
+    "webpack-dev-server": "^2.9.1"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
@@ -63,9 +64,9 @@
     "vue-loader": "^13.3.0",
     "vue-style-loader": "^3.0.1",
     "vue-template-compiler": "^2.5.21",
-    "webpack": "^3.6.0",
+    "webpack": "^3.12.0",
     "webpack-bundle-analyzer": "^2.9.0",
-    "webpack-dev-server": ">=3.1.11",
+    "webpack-cli": "^3.3.0",
     "webpack-merge": "^4.2.1"
   },
   "engines": {
