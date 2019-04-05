@@ -2,7 +2,7 @@
     <div class="bg" id="about" ref="about">
         <div class="sides-margin">
             <mdc-layout-grid>
-                <mdc-layout-cell desktop=4 tablet=4 align="middle">
+                <mdc-layout-cell desktop=4 tablet=8 align="middle">
                     <img class="profile-image mdc-elevation--z8" id="logo" src="../assets/avatar.png">
                 </mdc-layout-cell>
                 <mdc-layout-cell desktop=8 tablet=8 style=" text-align: justify;text-justify: inter-word; width: auto"

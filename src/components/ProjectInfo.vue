@@ -17,7 +17,7 @@
                         {{currentProject.button.availabilityMessage}}</p>
                 </mdc-layout-cell>
 
-                <mdc-layout-cell desktop=6 tablet=4 phone=4 class="centered-container">
+                <mdc-layout-cell desktop=6 tablet=8 phone=4 class="centered-container">
                     <div class="centered-vertically">
                         <carousel :data="images" :interval="7500"></carousel>
                     </div>
