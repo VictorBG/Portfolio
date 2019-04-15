@@ -37,10 +37,10 @@
     ],
     "button": {
       "enabled": true,
-      "title": "VIEW ON GOOGLE PLAY",
-      "availabilityVisible": true,
+      "title": "DOWNLOAD",
+      "availabilityVisible": false,
       "availabilityMessage": "Only available in Spain",
-      "link": "https://play.google.com/store/apps/details?id=com.jusaba.yallego&hl=es"
+      "link": "https://firebasestorage.googleapis.com/v0/b/portfolio-2e88e.appspot.com/o/YaLlego%2FYaLlego-v1.0.1%20(175).apk?alt=media&token=c311159a-a8a4-4a77-9571-025f80969f95"
     },
     "images": [
       "https://firebasestorage.googleapis.com/v0/b/portfolio-2e88e.appspot.com/o/YaLlego%2Fy1.png?alt=media&token=1d1a9f92-e11f-4387-88fe-79a8187a8830",
