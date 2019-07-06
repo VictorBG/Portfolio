@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Software Engineer Intern",
+    "company": "TomTom Telematics",
+    "from": "July 2019",
+    "to": "now",
+    "currentlyWorking": true,
+    "description": "I'm working as a software engineer intern at TomTom Telematics mainly focused in backend and frontend.",
+    "logo": "https://firebasestorage.googleapis.com/v0/b/portfolio-2e88e.appspot.com/o/ttt-logo.jpg?alt=media&token=aee8e394-4328-461f-bcfe-4a4e42e9a18c"
+  },
+  {
+    "title": "Software Developer",
+    "company": "Creativialab Marketing",
+    "from": "April 2016",
+    "to": "July 2018",
+    "currentlyWorking": true,
+    "description": "I worked as a software developer focused in building native applications for Android and their APIs, and also worked with websites from scratch and with WordPress.",
+    "logo": "https://firebasestorage.googleapis.com/v0/b/portfolio-2e88e.appspot.com/o/crea-logo.png?alt=media&token=3f33e9c6-1f37-4e83-a18c-8b2fca3115a0"
+  }
+]

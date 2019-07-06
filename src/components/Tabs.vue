@@ -82,7 +82,7 @@
             },
         },
         data() {
-            const sections = ['About', 'Projects', 'Contact'];
+            const sections = ['About', 'Projects'];
             return {
                 sections,
                 cancelScroll: undefined,
@@ -115,7 +115,7 @@
     }
 
     mdc-tab span {
-        font-family: "Roboto Medium", serif !important;
+        font-family: "Montserrat", sans-serif !important;
     }
 
 </style>

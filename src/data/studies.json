@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Bachelor's degree in Computer Engineering",
+    "company": "UPC - Polytechnic University of Catalonia",
+    "from": "2016",
+    "to": "now",
+    "currentlyWorking": true,
+    "description": null,
+    "logo": "https://firebasestorage.googleapis.com/v0/b/portfolio-2e88e.appspot.com/o/Logo_upc.png?alt=media&token=42be165c-2724-46e5-a3f1-c48505303eee"
+  },
+  {
+    "title": "Bachelor's degree in Electronic Engineering and Telecommunications",
+    "company": "UPC - Polytechnic University of Catalonia",
+    "from": "2015",
+    "to": "2016",
+    "currentlyWorking": false,
+    "description": null,
+    "logo": "https://firebasestorage.googleapis.com/v0/b/portfolio-2e88e.appspot.com/o/Logo_upc.png?alt=media&token=42be165c-2724-46e5-a3f1-c48505303eee"
+  }
+]

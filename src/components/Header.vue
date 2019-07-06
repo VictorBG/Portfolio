@@ -1,8 +1,8 @@
 <template>
     <div>
         <img id="logo" src="../assets/logo_vbg.svg">
-        <h3 id="text_introduction">Android & Web Developer</h3>
-        <h4 id="desc_introduction">I design and code beautifully simple things, and I love what I do.</h4>
+        <h3 id="text_introduction">Software engineer</h3>
+        <h4 id="desc_introduction">Software engineer student currently working as a Software Engineer Intern at TomTom Telematics.</h4>
         <br>
     </div>
 </template>

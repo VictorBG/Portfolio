@@ -153,26 +153,5 @@
       "https://firebasestorage.googleapis.com/v0/b/portfolio-2e88e.appspot.com/o/AnimeT%2Fanimet-5.png?alt=media&token=bc7f081d-a1c7-4437-86bc-99bdd923999a"
     ],
     "max_width": 250
-  },
-  {
-    "id": 6,
-    "title": "Private Project",
-    "short_description": "This is currently a private Android project. The project is an application of a popular sports club.<br><br> App pendant of client approval",
-    "large_description": "At Creativialab I have developed an Android app that allows customers to follow the news of the club, enjoy a promotions system, league classification and next match information.<br><br> I also developed the backend using Slim Framework, MySQL as database and deployed in AWS.<br><br><strong>App pendant of client approval</strong>",
-    "featured_image": "https://firebasestorage.googleapis.com/v0/b/portfolio-2e88e.appspot.com/o/safe.png?alt=media&token=a32611f3-808a-44db-be51-56c865ab7615",
-    "tags": [
-      "Android",
-      "API"
-    ],
-    "button": {
-      "enabled": false,
-      "title": "",
-      "availabilityVisible": false,
-      "availabilityMessage": "",
-      "link": ""
-    },
-    "images": [
-    ],
-    "max_width": 250
   }
 ]
