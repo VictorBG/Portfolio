@@ -1,9 +1,18 @@
 [
   {
+    "title": "Associate Software Engineer",
+    "company": "TomTom Telematics",
+    "from": "August 2019",
+    "to": "present",
+    "currentlyWorking": true,
+    "description": "I'm working as an associate software engineer at TomTom Telematics mainly focused in backend and frontend.",
+    "logo": "https://firebasestorage.googleapis.com/v0/b/portfolio-2e88e.appspot.com/o/ttt-logo.jpg?alt=media&token=aee8e394-4328-461f-bcfe-4a4e42e9a18c"
+  },
+  {
     "title": "Software Engineer Intern",
     "company": "TomTom Telematics",
     "from": "July 2019",
-    "to": "now",
+    "to": "August 2019",
     "currentlyWorking": true,
     "description": "I'm working as a software engineer intern at TomTom Telematics mainly focused in backend and frontend.",
     "logo": "https://firebasestorage.googleapis.com/v0/b/portfolio-2e88e.appspot.com/o/ttt-logo.jpg?alt=media&token=aee8e394-4328-461f-bcfe-4a4e42e9a18c"

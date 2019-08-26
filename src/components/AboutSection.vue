@@ -6,10 +6,9 @@
           <img class="profile-image mdc-elevation--z8" id="logo" src="../assets/avatar.png">
         </mdc-layout-cell>
         <mdc-layout-cell desktop=8 tablet=8 align="middle">
-          <p class="main-text">Computer science student ending his degree with experience in design
+          <p class="main-text">Computer engineering student ending his degree with experience in design
             and programming. I'm quietly confident, naturally curious, and perpetually improving my chops.<br><br>My
-            main goal
-            is to continue developing my career and grow alongside professionals who trust me.</p>
+            main goal is to continue developing my career and grow alongside professionals who trust me.</p>
         </mdc-layout-cell>
       </mdc-layout-grid>
 
@@ -28,23 +27,23 @@
 <script>
 
   import ServiceCard from './header/ServiceCard';
-  import services from "../data/services.json";
-  import Studies from "./about/Studies";
-  import Work from "./about/Work";
+  import services from '../data/services.json';
+  import Studies from './about/Studies';
+  import Work from './about/Work';
 
   export default {
-    name: "AboutSection",
+    name: 'AboutSection',
     components: {
       Work,
       Studies,
-      ServiceCard
+      ServiceCard,
     },
     data() {
       return {
-        services
-      }
-    }
-  }
+        services,
+      };
+    },
+  };
 </script>
 
 <style scoped>
@@ -76,6 +75,20 @@
 
   .space-50 {
     height: 50px;
+  }
+
+  @media only screen and (max-width: 1100px) {
+    .sides-margin-about {
+      margin-right: 6%;
+      margin-left: 6%;
+    }
+  }
+
+  @media only screen and (max-width: 950px) {
+    .sides-margin-about {
+      margin-right: 4%;
+      margin-left: 4%;
+    }
   }
 
   @media only screen and (max-width: 600px) {

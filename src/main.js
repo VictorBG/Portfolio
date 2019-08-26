@@ -29,18 +29,17 @@ Vue.directive('sticky', VueSticky);
 
 /* eslint-disable no-new */
 const app = new Vue({
-    el: '#app',
-    router,
-    template: '<App/>',
-    components: {App},
-    data() {
-        return {
-            tabActive: 0,
-            navigated: false
-        }
+  el: '#app',
+  router,
+  template: '<App/>',
+  components: {App},
+  data() {
+    return {
+      tabActive: 0,
+      navigated: false
     }
+  }
 }).$mount('#app');
-
 
 
 

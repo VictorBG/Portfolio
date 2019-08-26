@@ -6,11 +6,11 @@
 
     <div v-for="(item, index) in studies" style="display: table;">
 
-      <div class="row">
-        <div class="logo-column">
+      <div class="row" >
+        <div class="logo-column" >
           <hr class="vertical top" v-if="index!==0"/>
           <img class="profile-image-study" id="logo" height="50" width="50" :src="item.logo" alt="Img">
-          <hr class="vertical" v-if="index!== studies.length -1 "/>
+          <hr class="vertical" v-if="index!== studies.length -1 " style=" padding-bottom: 0; margin-bottom: 0"/>
         </div>
 
         <div class="column">
@@ -88,14 +88,15 @@
   .desc-text {
     color: #7e7d7d;
     font-size: 0.8rem;
-    text-align: left;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     margin: 8px;
+    text-align: justify;
+    text-justify: inter-word;
   }
   hr.vertical {
     width: 1px;
-    min-height: 110px;
+    min-height: 100px;
     height: 100%;
     margin-top: -10px;
     margin-bottom: 0;
@@ -124,6 +125,9 @@
     width: 50px;
     align-items: center;
     overflow-wrap: break-word;
+    display: table-cell;
+    height: auto;
+    /*overflow: hidden;*/
   }
 
   .column {
@@ -131,10 +135,16 @@
     width: auto;
     margin-left: 16px;
     overflow-wrap: break-word;
-    max-width: 80%;
+    /*max-width: 80%;*/
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 750px) {
+    .column {
+      max-width: 85%;
+    }
+  }
+
+  @media only screen and (max-width: 650px) {
     .title-text {
       font-size: 0.9rem;
       overflow-wrap: break-word;
@@ -146,8 +156,19 @@
     }
 
     .column {
-      max-width: 70%;
+      /*max-width: 80%;*/
     }
   }
 
+  @media only screen and (max-width: 530px) {
+    .column {
+      max-width: 80%;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    .column {
+      max-width: 70%;
+    }
+  }
 </style>

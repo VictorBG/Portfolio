@@ -2,7 +2,7 @@
     <div>
         <img id="logo" src="../assets/logo_vbg.svg">
         <h3 id="text_introduction">Software engineer</h3>
-        <h4 id="desc_introduction">Software engineer student currently working as a Software Engineer Intern at TomTom Telematics.</h4>
+        <h4 id="desc_introduction">Software engineer student currently working as an Associate Software Engineer at TomTom Telematics.</h4>
         <br>
     </div>
 </template>

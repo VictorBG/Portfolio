@@ -89,16 +89,17 @@
   .desc-text {
     color: #7e7d7d;
     font-size: 0.8rem;
-    text-align: left;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     margin: 8px;
+    text-align: justify;
+    text-justify: inter-word;
   }
 
   hr.vertical {
     width: 1px;
-    min-height: 110px;
-    height: 100%;
+    min-height: 150px;
+    height: 100% !important;
     margin-top: -10px;
     margin-bottom: 0;
     padding-bottom: 0;
@@ -136,7 +137,13 @@
     max-width: 80%;
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 750px) {
+    .column {
+      max-width: 85%;
+    }
+  }
+
+  @media only screen and (max-width: 650px) {
     .title-text {
       font-size: 0.9rem;
       overflow-wrap: break-word;
@@ -147,6 +154,18 @@
       overflow-wrap: break-word;
     }
 
+    .column {
+      /*max-width: 80%;*/
+    }
+  }
+
+  @media only screen and (max-width: 530px) {
+    .column {
+      max-width: 80%;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
     .column {
       max-width: 70%;
     }
