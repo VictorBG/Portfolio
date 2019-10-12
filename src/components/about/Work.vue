@@ -9,7 +9,8 @@
       <div class="row">
         <div class="logo-column">
           <hr class="vertical top" v-if="index!==0"/>
-          <img class="profile-image-study" id="logo" height="50" width="50" :src="item.logo" alt="Img">
+          <img class="profile-image-study mdc-elevation--z3" id="logo" height="50" width="50" :src="item.logo"
+               alt="Img">
           <hr class="vertical" v-if="index!== studies.length -1 "/>
         </div>
 
@@ -30,16 +31,16 @@
 
 <script>
 
-  import studies from '../../data/work'
+    import studies from '../../data/work'
 
-  export default {
-    name: "Work",
-    data() {
-      return {
-        studies
-      }
+    export default {
+        name: "Work",
+        data() {
+            return {
+                studies
+            }
+        }
     }
-  }
 </script>
 
 <style scoped>
@@ -56,6 +57,7 @@
     width: 50px;
     background-size: cover;
     border-radius: 50% !important;
+    background-color: white;
     padding: 0;
   }
 

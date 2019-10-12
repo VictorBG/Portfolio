@@ -6,10 +6,11 @@
 
     <div v-for="(item, index) in studies" style="display: table;">
 
-      <div class="row" >
-        <div class="logo-column" >
+      <div class="row">
+        <div class="logo-column">
           <hr class="vertical top" v-if="index!==0"/>
-          <img class="profile-image-study" id="logo" height="50" width="50" :src="item.logo" alt="Img">
+          <img class="profile-image-study mdc-elevation--z3" id="logo" height="50" width="50" :src="item.logo"
+               alt="Img">
           <hr class="vertical" v-if="index!== studies.length -1 " style=" padding-bottom: 0; margin-bottom: 0"/>
         </div>
 
@@ -30,16 +31,16 @@
 
 <script>
 
-  import studies from '../../data/studies'
+    import studies from '../../data/studies'
 
-  export default {
-    name: "Studies",
-    data() {
-      return {
-        studies
-      }
+    export default {
+        name: "Studies",
+        data() {
+            return {
+                studies
+            }
+        }
     }
-  }
 </script>
 
 <style scoped>
@@ -94,6 +95,7 @@
     text-align: justify;
     text-justify: inter-word;
   }
+
   hr.vertical {
     width: 1px;
     min-height: 100px;
